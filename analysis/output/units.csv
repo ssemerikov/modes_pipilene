@@ -1,0 +1,121 @@
+unit_id,book,lang,context,mode,period_written,period,ukraine,short,divisions,words,locator,label
+applebaum_01,applebaum,en,American,historical analysis,P1,P1,False,False,1,4362,front matter (1994 introduction),Introduction
+applebaum_02,applebaum,en,American,historical analysis,P1,P1,False,False,1,2140,pp. 1-10,Prelude
+applebaum_03,applebaum,en,American,historical analysis,P1,P1,False,False,1,2557,pp. 13-20,Part One: Germans (essay)
+applebaum_04,applebaum,en,American,historical analysis,P1,P1,False,False,1,7042,pp. 21-40,Kaliningrad/Königsberg
+applebaum_05,applebaum,en,American,historical analysis,P1,P1,False,False,1,3969,pp. 47-58,Part Two: Poles and Lithuanians (essay)
+applebaum_06,applebaum,en,American,historical analysis,P1,P1,False,False,1,4518,pp. 59-71,Vilnius/Wilno
+applebaum_07,applebaum,en,American,historical analysis,P1,P1,False,False,1,3378,pp. 72-81,Paberžė
+applebaum_08,applebaum,en,American,historical analysis,P1,P1,False,False,1,3118,pp. 82-90,Perloja
+applebaum_09,applebaum,en,American,historical analysis,P1,P1,False,False,1,1677,pp. 91-95,Eišiškės
+applebaum_10,applebaum,en,American,historical analysis,P1,P1,False,False,1,1163,pp. 96-99,Radun
+applebaum_11,applebaum,en,American,historical analysis,P1,P1,False,False,1,1977,pp. 100-105,Hermaniszki
+applebaum_12,applebaum,en,American,historical analysis,P1,P1,False,False,1,6886,pp. 106-125,Bieniakonie
+applebaum_13,applebaum,en,American,historical analysis,P1,P1,False,False,1,3640,pp. 126-136,Nowogródek
+applebaum_14,applebaum,en,American,historical analysis,P1,P1,False,False,1,6877,pp. 143-161,"Part Three: Russians, Belarusians, and Ukrainians"
+applebaum_15,applebaum,en,American,historical analysis,P1,P1,False,False,1,4150,pp. 162-173,Minsk
+applebaum_16,applebaum,en,American,historical analysis,P1,P1,False,False,1,3946,pp. 174-184,Brest
+applebaum_17,applebaum,en,American,historical analysis,P1,P1,False,False,1,1788,pp. 185-189,Kobrin
+applebaum_18,applebaum,en,American,historical analysis,P1,P1,False,False,1,1427,pp. 190-193,A Memory
+applebaum_19,applebaum,en,American,historical analysis,P1,P1,True,False,1,7028,pp. 194-212,L'viv/Lvov/Lwów
+applebaum_20,applebaum,en,American,historical analysis,P1,P1,True,False,1,1824,pp. 213-217,Woroniaki
+applebaum_21,applebaum,en,American,historical analysis,P1,P1,True,False,1,2358,pp. 218-224,Drohobych
+applebaum_22,applebaum,en,American,historical analysis,P1,P1,True,False,1,4328,pp. 225-237,Across the Carpathians
+applebaum_23,applebaum,en,American,historical analysis,P1,P1,True,False,1,2888,pp. 243-251,Chernivtsi/Czernowitz
+applebaum_24,applebaum,en,American,historical analysis,P1,P1,True,False,1,3065,pp. 252-260,Kamenets Podolsky
+applebaum_25,applebaum,en,American,historical analysis,P1,P1,False,False,1,4409,pp. 261-273,Kishinev/Chișinău
+applebaum_26,applebaum,en,American,historical analysis,P1,P1,True,False,1,3838,pp. 274-284,Odessa
+applebaum_27,applebaum,en,American,historical analysis,P1,P1,False,False,1,3427,pp. 285-296,Epilogue
+nicolay_01,nicolay,en,American,experiential testimony,P2,,False,False,1,1793,pp. 1-7,Introduction
+nicolay_02,nicolay,en,American,experiential testimony,P2,P1,True,False,1,6702,pp. 11-33,The Humorless Ladies of Border Control
+nicolay_03,nicolay,en,American,experiential testimony,P2,P1,False,False,1,7479,pp. 34-59,Party for Everybody (Rostov-on-Don to Saint
+nicolay_04,nicolay,en,American,experiential testimony,P2,P1,False,False,1,2606,pp. 60-69,A Real Lenin of Our Time
+nicolay_05,nicolay,en,American,experiential testimony,P2,P1,False,False,1,5602,pp. 70-89,God-Forget-It House (Trans-Siberian)
+nicolay_06,nicolay,en,American,experiential testimony,P2,P1,False,False,1,15030,pp. 90-142,The Knout and the Pierogi (Tomsk
+nicolay_07,nicolay,en,American,experiential testimony,P2,P1,False,False,1,8565,pp. 143-171,The Hall of Sufficient Looking (Trans-Mongolian)
+nicolay_08,nicolay,en,American,experiential testimony,P2,P1,False,False,1,13081,pp. 175-219,Drunk Nihilists Make a Good Audience
+nicolay_09,nicolay,en,American,experiential testimony,P2,P1,False,False,1,3456,pp. 220-232,"A Fur Coat with Morsels (Hungary,"
+nicolay_10,nicolay,en,American,experiential testimony,P2,P1,False,False,1,4377,pp. 233-247,"Poor, but They Have Style (Romania)"
+nicolay_11,nicolay,en,American,experiential testimony,P2,P1,False,False,1,10104,pp. 248-281,You Are an Asshole Big Time
+nicolay_12,nicolay,en,American,experiential testimony,P2,P1,False,False,1,2601,pp. 282-291,Don't Bring Your Beer in Church
+nicolay_13,nicolay,en,American,experiential testimony,P2,P2,True,False,1,19157,pp. 295-359,"Changing the Country, We Apologize (Ukraine"
+miller_01,miller,en,American,war reportage,P3,P3,True,False,1,3442,ch. 9,"Prologue “Special Military Operation” Kramatorsk, Eastern"
+miller_02,miller,en,American,war reportage,P3,P1,True,False,1,8736,ch. 11,"1 American Boy Artemivsk, eastern Ukraine,"
+miller_03,miller,en,American,war reportage,P3,P1,True,False,1,8681,ch. 12,2 Friends
+miller_04,miller,en,American,war reportage,P3,P1,True,False,1,10535,ch. 13,3 A Darker Side of the
+miller_05,miller,en,American,war reportage,P3,P1,True,False,1,2911,ch. 14,"4 Acts of Journalism Kyiv, January"
+miller_06,miller,en,American,war reportage,P3,P2,True,False,1,17734,ch. 16,"5 Euromaidan Kyiv, November 2013"
+miller_07,miller,en,American,war reportage,P3,P2,True,False,1,6780,ch. 17,"6 “Little Green Men” Simferopol, March"
+miller_08,miller,en,American,war reportage,P3,P2,True,False,1,1909,ch. 18,7 Voting Under The Gun Simferopol
+miller_09,miller,en,American,war reportage,P3,P2,True,False,1,3115,ch. 20,"8 “Russian Spring” The Donbas, March–mid-May"
+miller_10,miller,en,American,war reportage,P3,P2,True,False,1,2568,ch. 21,"9 Stamps Donetsk, May 2014"
+miller_11,miller,en,American,war reportage,P3,P2,True,False,1,2791,ch. 22,"10 “Look at Our Republic” Donetsk,"
+miller_12,miller,en,American,war reportage,P3,P2,True,False,1,1215,ch. 23,"11 “Some Fucking Militia” Torez, Donetsk"
+miller_13,miller,en,American,war reportage,P3,P2,True,False,1,1167,ch. 24,12 Volunteer Battalions Dnipropetrovsk and Donetsk
+miller_14,miller,en,American,war reportage,P3,P2,True,False,2,2237,ch. 25 .. ch. 26,13 “Live in a New Way”
+miller_15,miller,en,American,war reportage,P3,P2,True,False,1,2098,ch. 27,"15 Executioners Slovyansk, 7 July 2014"
+miller_16,miller,en,American,war reportage,P3,P2,True,False,1,1929,ch. 28,"16 Fields of Death Hrabove, Donetsk"
+miller_17,miller,en,American,war reportage,P3,P2,True,False,1,1818,ch. 29,"17 The Launch Site Pervomaiske, Donetsk"
+miller_18,miller,en,American,war reportage,P3,P2,True,False,2,2433,ch. 30 .. ch. 31,18 “The First Real Independence Day”
+miller_19,miller,en,American,war reportage,P3,P2,True,False,1,2212,ch. 32,"20 City of Ghosts Luhansk, October"
+miller_20,miller,en,American,war reportage,P3,P2,True,False,1,1113,ch. 33,"21 POWs Ilovaisk, Donetsk Oblast, October"
+miller_21,miller,en,American,war reportage,P3,P2,True,False,1,1091,ch. 34,"22 The Body Collectors Marinovka, Donetsk"
+miller_22,miller,en,American,war reportage,P3,P2,True,False,1,2324,ch. 35,23 City of a Million Roses
+miller_23,miller,en,American,war reportage,P3,P2,True,False,1,1234,ch. 36,24 Left Behind Debaltseve and Verkhnya
+miller_24,miller,en,American,war reportage,P3,P2,True,False,2,1754,ch. 37 .. ch. 38,25 The Woman in the Grass
+miller_25,miller,en,American,war reportage,P3,P2,True,False,1,1332,ch. 39,"27 PTSD Kyiv, April 2015"
+miller_26,miller,en,American,war reportage,P3,P2,True,False,1,2126,ch. 41,"28 Warning Signs Kyiv, early 2022"
+miller_27,miller,en,American,war reportage,P3,P2,True,False,1,2867,ch. 42,"29 Servant of the People Kyiv,"
+miller_28,miller,en,American,war reportage,P3,P2,True,False,1,1524,ch. 43,30 Keep Calm and Party On
+miller_29,miller,en,American,war reportage,P3,P3,True,False,1,1974,ch. 44,"31 The Battle of Kyiv Kyiv,"
+miller_30,miller,en,American,war reportage,P3,P3,True,False,1,1880,ch. 45,"32 Control the Skies Vasylkiv, south"
+miller_31,miller,en,American,war reportage,P3,P3,True,False,1,1183,ch. 46,33 “Who would like some tea?”
+miller_32,miller,en,American,war reportage,P3,P3,True,False,1,2074,ch. 47,"34 “Ya tut” Kyiv, late February"
+miller_33,miller,en,American,war reportage,P3,P3,True,False,1,3507,ch. 48,35 Heroes On the Outskirts of
+miller_34,miller,en,American,war reportage,P3,P3,True,False,1,3493,ch. 49,"36 Escape Kyiv and Irpin, west"
+miller_35,miller,en,American,war reportage,P3,P3,True,False,2,1886,ch. 50 .. ch. 51,37 “It feels like I’m doing
+miller_36,miller,en,American,war reportage,P3,P3,True,False,1,3237,ch. 52,"39 Savagery Kyiv region, Spring 2022"
+miller_37,miller,en,American,war reportage,P3,P2,True,False,1,3699,ch. 53,40 A Storm on the Horizon
+miller_38,miller,en,American,war reportage,P3,P2,True,False,1,2041,ch. 54,"41 Trouble at Sea Mariupol, southeastern"
+miller_39,miller,en,American,war reportage,P3,P3,True,False,1,1933,ch. 55,"42 Siege Mariupol, 24 February–April 2022"
+miller_40,miller,en,American,war reportage,P3,P3,True,False,1,2789,ch. 56,"43 Filtration Mariupol, February–April 2022"
+miller_41,miller,en,American,war reportage,P3,P3,True,False,2,7033,ch. 57 .. ch. 58,"44 Summertime in the City Kyiv,"
+miller_42,miller,en,American,war reportage,P3,P3,True,False,1,1194,ch. 59,46 “The Terrorists are Destroying Everything”
+miller_43,miller,en,American,war reportage,P3,P3,True,False,1,1467,ch. 60,"47 Missiles Kyiv, October 2022"
+miller_44,miller,en,American,war reportage,P3,P3,True,False,1,1578,ch. 61,"48 “Fortress Bakhmut” Bakhmut, December 2022"
+miller_45,miller,en,American,war reportage,P3,P2,True,True,1,476,ch. 62,"49 “To Peace” Kyiv and Lviv,"
+miller_46,miller,en,American,war reportage,P3,P3,True,True,1,517,ch. 63,"50 “I. Love. You.” Kyiv, February"
+brumme_01,brumme,de,German,wartime diary,P3,,True,False,1,2267,preface,Vorwort
+brumme_02,brumme,de,German,wartime diary,P3,P2,True,False,2,1018,p. 17 .. p. 17,2022-01-28 .. 2022-01-28
+brumme_03,brumme,de,German,wartime diary,P3,P2,True,False,3,1272,p. 21 .. p. 23,2022-01-31 .. 2022-02-05
+brumme_04,brumme,de,German,wartime diary,P3,P2,True,False,2,1422,p. 25 .. p. 27,2022-02-10 .. 2022-02-12
+brumme_05,brumme,de,German,wartime diary,P3,P2,True,False,2,1191,p. 31 .. p. 33,2022-02-14 .. 2022-02-15
+brumme_06,brumme,de,German,wartime diary,P3,P2,True,False,5,1577,p. 35 .. p. 41,2022-02-18 .. 2022-02-22
+brumme_07,brumme,de,German,wartime diary,P3,P3,True,False,3,1420,p. 43 .. p. 45,2022-02-24 .. 2022-02-28
+brumme_08,brumme,de,German,wartime diary,P3,P3,True,False,2,1055,p. 47 .. p. 49,2022-03-01 .. 2022-03-02
+brumme_09,brumme,de,German,wartime diary,P3,P3,True,False,3,1335,p. 51 .. p. 53,2022-03-03 .. 2022-03-05
+brumme_10,brumme,de,German,wartime diary,P3,P3,True,False,3,1013,p. 57 .. p. 59,2022-03-06 .. 2022-03-08
+brumme_11,brumme,de,German,wartime diary,P3,P3,True,False,1,1007,p. 61,2022-03-09
+brumme_12,brumme,de,German,wartime diary,P3,P3,True,False,2,1367,p. 65 .. p. 65,2022-03-12 .. 2022-03-15
+brumme_13,brumme,de,German,wartime diary,P3,P3,True,False,4,1410,p. 69 .. p. 73,2022-03-18 .. 2022-03-24
+brumme_14,brumme,de,German,wartime diary,P3,P3,True,False,3,1108,p. 75 .. p. 79,2022-03-25 .. 2022-03-29
+brumme_15,brumme,de,German,wartime diary,P3,P3,True,False,5,1202,p. 81 .. p. 83,2022-03-31 .. 2022-04-05
+brumme_16,brumme,de,German,wartime diary,P3,P3,True,False,2,1367,p. 85 .. p. 87,2022-04-06 .. 2022-04-07
+brumme_17,brumme,de,German,wartime diary,P3,P3,True,False,1,1509,p. 91,2022-04-10
+brumme_18,brumme,de,German,wartime diary,P3,P3,True,False,3,1423,p. 97 .. p. 101,2022-04-12 .. 2022-04-14
+brumme_19,brumme,de,German,wartime diary,P3,P3,True,False,6,1845,p. 101 .. p. 109,2022-04-15 .. 2022-05-01
+orth_01,orth,de,German,travel reportage,P3,P3,True,False,1,5528,ch. 3,1 Kyjiw
+orth_02,orth,de,German,travel reportage,P3,P3,True,False,1,3172,ch. 4,2 Iwano-Frankiwsk
+orth_03,orth,de,German,travel reportage,P3,P3,True,False,1,6461,ch. 5,3 Drohobytsch
+orth_04,orth,de,German,travel reportage,P3,P3,True,False,1,4522,ch. 6,4 Charkiw
+orth_05,orth,de,German,travel reportage,P3,P3,True,False,1,4010,ch. 7,5 Poltawa
+orth_06,orth,de,German,travel reportage,P3,P3,True,False,1,7308,ch. 8,6 Odesa
+orth_07,orth,de,German,travel reportage,P3,P3,True,False,1,5546,ch. 9,7 Dnipro
+orth_08,orth,de,German,travel reportage,P3,P3,True,False,1,8323,ch. 10,8 Saporischschja
+orth_09,orth,de,German,travel reportage,P3,P3,True,False,1,1465,ch. 11,9 Tscherniwzi
+orth_10,orth,de,German,travel reportage,P3,P3,True,False,1,2010,ch. 12,10 Winnyzja
+orth_11,orth,de,German,travel reportage,P3,P3,True,False,1,3006,ch. 13,11 Lukaschiwka
+orth_12,orth,de,German,travel reportage,P3,P3,True,False,1,3336,ch. 14,12 Tschernihiw
+orth_13,orth,de,German,travel reportage,P3,P3,True,False,1,2458,ch. 15,13 Dnipro (2)
+orth_14,orth,de,German,travel reportage,P3,P3,True,False,1,2472,ch. 16,14 Kostjantyniwka
+orth_15,orth,de,German,travel reportage,P3,P3,True,False,1,3631,ch. 17,15 Oblast Donezk

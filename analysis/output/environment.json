@@ -1,0 +1,25 @@
+{
+ "python": "3.10.12",
+ "platform": "Linux-5.15.0-191-generic-x86_64-with-glibc2.35",
+ "seed": 20260930,
+ "packages": {
+  "numpy": "2.0.2",
+  "pandas": "2.2.3",
+  "scipy": "1.15.3",
+  "scikit-learn": "1.6.1",
+  "spacy": "3.8.9",
+  "torch": "2.8.0+cpu",
+  "transformers": "4.55.4",
+  "sentence-transformers": "5.1.2",
+  "matplotlib": "3.9.4"
+ },
+ "spacy_models": {
+  "en_core_web_sm": "3.8.0",
+  "de_core_news_sm": "3.8.0"
+ },
+ "hf_models": {
+  "cardiffnlp/twitter-xlm-roberta-base-sentiment": "f2f1202b1bdeb07342385c3f807f9c07cd8f5cf8",
+  "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42"
+ },
+ "tesseract": "tesseract 4.1.1"
+}

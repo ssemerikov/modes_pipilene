@@ -1,0 +1,1216 @@
+{
+ "groups": [
+  "War",
+  "Politics and nation",
+  "People and everyday life",
+  "Place and movement"
+ ],
+ "group_share_by_book": {
+  "applebaum": {
+   "War": {
+    "share": 0.04763215859030837,
+    "lo": 0.02183575582892194,
+    "hi": 0.06653138283907234,
+    "seeds_min": 0.004051290119572058,
+    "seeds_max": 0.06517463813719321
+   },
+   "Politics and nation": {
+    "share": 0.0882630585273757,
+    "lo": 0.03833537331701346,
+    "hi": 0.12382341648323943,
+    "seeds_min": 0.06847860289490246,
+    "seeds_max": 0.1669288860918817
+   },
+   "People and everyday life": {
+    "share": 0.40398835745752043,
+    "lo": 0.3391144476788724,
+    "hi": 0.5096005043847079,
+    "seeds_min": 0.417282882315922,
+    "seeds_max": 0.5644273127753304
+   },
+   "Place and movement": {
+    "share": 0.46011642542479547,
+    "lo": 0.373692766151883,
+    "hi": 0.5235975417585881,
+    "seeds_min": 0.30018879798615483,
+    "seeds_max": 0.43718533668974197
+   }
+  },
+  "nicolay": {
+   "War": {
+    "share": 0.046300823710836124,
+    "lo": 0.03213665315576143,
+    "hi": 0.05127293053508816,
+    "seeds_min": 0.014142249971790725,
+    "seeds_max": 0.07165155903260992
+   },
+   "Politics and nation": {
+    "share": 0.15150261405950277,
+    "lo": 0.03271569195136074,
+    "hi": 0.19320087402815184,
+    "seeds_min": 0.12720502501222403,
+    "seeds_max": 0.21040358069733328
+   },
+   "People and everyday life": {
+    "share": 0.5748674164065145,
+    "lo": 0.45309785755645626,
+    "hi": 0.6176126835713197,
+    "seeds_min": 0.4830556286907135,
+    "seeds_max": 0.628841162974386
+   },
+   "Place and movement": {
+    "share": 0.22732914582314664,
+    "lo": 0.13791351186544032,
+    "hi": 0.48204979733642156,
+    "seeds_min": 0.17895964193026667,
+    "seeds_max": 0.2605408658366871
+   }
+  },
+  "miller": {
+   "War": {
+    "share": 0.3896845330963892,
+    "lo": 0.31102183917783754,
+    "hi": 0.4886394872955984,
+    "seeds_min": 0.2290405860170292,
+    "seeds_max": 0.3732010550545368
+   },
+   "Politics and nation": {
+    "share": 0.25743190770371716,
+    "lo": 0.17029062461169162,
+    "hi": 0.3340376462954539,
+    "seeds_min": 0.25536097837418054,
+    "seeds_max": 0.41233182444676103
+   },
+   "People and everyday life": {
+    "share": 0.25127509077806776,
+    "lo": 0.1677323592981215,
+    "hi": 0.3563044336159396,
+    "seeds_min": 0.19167290510805912,
+    "seeds_max": 0.2748039263700667
+   },
+   "Place and movement": {
+    "share": 0.10160846842182591,
+    "lo": 0.07412713649701352,
+    "hi": 0.12671227513868033,
+    "seeds_min": 0.10756938662711378,
+    "seeds_max": 0.13291728176532733
+   }
+  },
+  "brumme": {
+   "War": {
+    "share": 0.20014116539879226,
+    "lo": 0.15240827703323703,
+    "hi": 0.2531173028274452,
+    "seeds_min": 0.09744333777742922,
+    "seeds_max": 0.20849345149400048
+   },
+   "Politics and nation": {
+    "share": 0.5299584346325779,
+    "lo": 0.45582825935408394,
+    "hi": 0.5990235756142788,
+    "seeds_min": 0.4797270802290016,
+    "seeds_max": 0.5945416045800329
+   },
+   "People and everyday life": {
+    "share": 0.15716414398870676,
+    "lo": 0.10874423292806461,
+    "hi": 0.2091660680524786,
+    "seeds_min": 0.12242177084150263,
+    "seeds_max": 0.22186495176848875
+   },
+   "Place and movement": {
+    "share": 0.11273625597992315,
+    "lo": 0.08054488600498631,
+    "hi": 0.14327059944729162,
+    "seeds_min": 0.09767861344208298,
+    "seeds_max": 0.1695553289938044
+   }
+  },
+  "orth": {
+   "War": {
+    "share": 0.20574208317436093,
+    "lo": 0.16685627859989416,
+    "hi": 0.24302333408342103,
+    "seeds_min": 0.14313875111280683,
+    "seeds_max": 0.21515324939590488
+   },
+   "Politics and nation": {
+    "share": 0.17170609182245963,
+    "lo": 0.13148784260552443,
+    "hi": 0.2106002718200152,
+    "seeds_min": 0.16862202721607528,
+    "seeds_max": 0.23944423248124125
+   },
+   "People and everyday life": {
+    "share": 0.44728475136716267,
+    "lo": 0.38956407927652154,
+    "hi": 0.5064020295457571,
+    "seeds_min": 0.3692134045529696,
+    "seeds_max": 0.4567277120691848
+   },
+   "Place and movement": {
+    "share": 0.1752670736360168,
+    "lo": 0.14967883891526207,
+    "hi": 0.20232098623625314,
+    "seeds_min": 0.1565083301538853,
+    "seeds_max": 0.22267264402899656
+   }
+  }
+ },
+ "within_author_groups": {
+  "miller": {
+   "P1": {
+    "War": 0.10182235249139798,
+    "Politics and nation": 0.21829998725627628,
+    "People and everyday life": 0.5240219192047917,
+    "Place and movement": 0.15585574104753408
+   },
+   "P2": {
+    "War": 0.413817466474565,
+    "Politics and nation": 0.3492602238723263,
+    "People and everyday life": 0.15849772802837195,
+    "Place and movement": 0.07842458162473678
+   },
+   "P3": {
+    "War": 0.574989201961432,
+    "Politics and nation": 0.12022663177418126,
+    "People and everyday life": 0.20391778246398537,
+    "Place and movement": 0.10086638380040143
+   }
+  },
+  "brumme": {
+   "P2": {
+    "War": 0.2318548387096774,
+    "Politics and nation": 0.5849875930521092,
+    "People and everyday life": 0.11988213399503722,
+    "Place and movement": 0.06327543424317618
+   },
+   "P3": {
+    "War": 0.20223716308680906,
+    "Politics and nation": 0.4945558398286428,
+    "People and everyday life": 0.17843755578032963,
+    "Place and movement": 0.12476944130421848
+   }
+  }
+ },
+ "seed_stability_ari": {
+  "mean": 0.46155664313962685,
+  "min": 0.3563276481268055
+ },
+ "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "passage_words": 100,
+ "k": 12,
+ "n_passages": 2561,
+ "passages_by_book": {
+  "applebaum": 226,
+  "nicolay": 234,
+  "miller": 1282,
+  "brumme": 237,
+  "orth": 582
+ },
+ "silhouette": {
+  "8": 0.028839925304055214,
+  "10": 0.02810964733362198,
+  "12": 0.026966910809278488,
+  "14": 0.02809709496796131,
+  "16": 0.026868769899010658
+ },
+ "themes": {
+  "0": {
+   "label": "Encounters: language, school, acquaintances",
+   "group": "People and everyday life",
+   "passages": 196,
+   "share_by_book": {
+    "applebaum": 0.09321900566393959,
+    "nicolay": 0.1520291871967503,
+    "miller": 0.06305839880781636,
+    "brumme": 0.029840796800250962,
+    "orth": 0.08954915426681928
+   },
+   "language_mix": {
+    "en": 0.7069526559420688,
+    "de": 0.29304734405793115
+   },
+   "terms_en": [
+    "english",
+    "school",
+    "nikolai",
+    "igor",
+    "language",
+    "professor",
+    "friends",
+    "artemivsk",
+    "introduced",
+    "restaurant",
+    "bands",
+    "shows",
+    "odessa",
+    "olga",
+    "yevgenyevna"
+   ],
+   "terms_de": [
+    "eis",
+    "odesa",
+    "jurij",
+    "buch",
+    "restaurant",
+    "kyjiw",
+    "deutsch",
+    "charkiw",
+    "the",
+    "andrij",
+    "ukrainisch",
+    "thema",
+    "ukrainische",
+    "ihor",
+    "wolodymyr"
+   ]
+  },
+  "1": {
+   "label": "Russia and geopolitics",
+   "group": "Politics and nation",
+   "passages": 237,
+   "share_by_book": {
+    "applebaum": 0.012979861548143486,
+    "nicolay": 0.013578064467596946,
+    "miller": 0.08544682399199614,
+    "brumme": 0.30119206336757903,
+    "orth": 0.08551125524608928
+   },
+   "language_mix": {
+    "en": 0.49699584039439226,
+    "de": 0.5030041596056077
+   },
+   "terms_en": [
+    "russia",
+    "putin",
+    "russian",
+    "crimea",
+    "ukraine",
+    "zelensky",
+    "kremlin",
+    "moscow",
+    "invasion",
+    "president",
+    "invade",
+    "russians",
+    "troops",
+    "threat",
+    "peninsula"
+   ],
+   "terms_de": [
+    "russland",
+    "putin",
+    "russen",
+    "ukraine",
+    "russlands",
+    "nato",
+    "russischen",
+    "krieg",
+    "westen",
+    "medien",
+    "putins",
+    "armee",
+    "angeblich",
+    "moskau",
+    "krim"
+   ]
+  },
+  "2": {
+   "label": "Family and personal stories",
+   "group": "People and everyday life",
+   "passages": 183,
+   "share_by_book": {
+    "applebaum": 0.09943360604153556,
+    "nicolay": 0.037612366946251925,
+    "miller": 0.06587094472157895,
+    "brumme": 0.04234961963767547,
+    "orth": 0.09109118657001145
+   },
+   "language_mix": {
+    "en": 0.6552422416848074,
+    "de": 0.3447577583151926
+   },
+   "terms_en": [
+    "husband",
+    "said",
+    "family",
+    "oksana",
+    "mother",
+    "told",
+    "woman",
+    "liudmyla",
+    "tears",
+    "cried",
+    "year",
+    "julia",
+    "explosions",
+    "valentina",
+    "woroniaki"
+   ],
+   "terms_de": [
+    "julija",
+    "tochter",
+    "essen",
+    "eltern",
+    "hamburg",
+    "fotos",
+    "winnyzja",
+    "nummer",
+    "mutter",
+    "wirkt",
+    "könnten",
+    "video",
+    "nachrichten",
+    "abend",
+    "namens"
+   ]
+  },
+  "3": {
+   "label": "Townscape and history",
+   "group": "Place and movement",
+   "passages": 221,
+   "share_by_book": {
+    "applebaum": 0.3376730648206419,
+    "nicolay": 0.08538007296799188,
+    "miller": 0.05261279918282248,
+    "brumme": 0.03435024703944789,
+    "orth": 0.08896095637797279
+   },
+   "language_mix": {
+    "en": 0.7395258984988128,
+    "de": 0.26047410150118727
+   },
+   "terms_en": [
+    "kamenets",
+    "city",
+    "houses",
+    "century",
+    "polish",
+    "built",
+    "odessa",
+    "high",
+    "walls",
+    "chernivtsi",
+    "square",
+    "castle",
+    "town",
+    "bukovyna",
+    "ancient"
+   ],
+   "terms_de": [
+    "stadt",
+    "hundert",
+    "löcher",
+    "janukowytsch",
+    "europas",
+    "stehen",
+    "weltkrieg",
+    "mauer",
+    "denkmal",
+    "platz",
+    "kirche",
+    "bild",
+    "kopf",
+    "fünfzig",
+    "vorbei"
+   ]
+  },
+  "4": {
+   "label": "Combat and bombardment",
+   "group": "War",
+   "passages": 254,
+   "share_by_book": {
+    "applebaum": 0.0,
+    "nicolay": 0.016511829089404597,
+    "miller": 0.14006758505852474,
+    "brumme": 0.050192141792800564,
+    "orth": 0.09854699224214676
+   },
+   "language_mix": {
+    "en": 0.7323000930632114,
+    "de": 0.2676999069367886
+   },
+   "terms_en": [
+    "fire",
+    "soldiers",
+    "protesters",
+    "berkut",
+    "police",
+    "fighters",
+    "artillery",
+    "rifles",
+    "missile",
+    "feet",
+    "air",
+    "soldier",
+    "smoke",
+    "rocket",
+    "bullet"
+   ],
+   "terms_de": [
+    "rakete",
+    "knall",
+    "meter",
+    "raketen",
+    "fliegt",
+    "ding",
+    "ballistische",
+    "schießen",
+    "gebäude",
+    "stunde",
+    "gestern",
+    "kilometer",
+    "getroffen",
+    "wissen",
+    "fenster"
+   ]
+  },
+  "5": {
+   "label": "Nation, language, independence",
+   "group": "Politics and nation",
+   "passages": 182,
+   "share_by_book": {
+    "applebaum": 0.0710352422907489,
+    "nicolay": 0.06145860759017565,
+    "miller": 0.05928734844085608,
+    "brumme": 0.16626146968865188,
+    "orth": 0.06230128449701132
+   },
+   "language_mix": {
+    "en": 0.5935336023514173,
+    "de": 0.40646639764858267
+   },
+   "terms_en": [
+    "ukraine",
+    "ukrainian",
+    "ukrainians",
+    "independence",
+    "nationalism",
+    "yanukovych",
+    "independent",
+    "russia",
+    "svoboda",
+    "join",
+    "supported",
+    "september",
+    "freedom",
+    "euromaidan",
+    "language"
+   ],
+   "terms_de": [
+    "ukrainer",
+    "deutschen",
+    "ukraine",
+    "sprache",
+    "deutschland",
+    "deutsche",
+    "ukrainerinnen",
+    "solowjow",
+    "politik",
+    "krieges",
+    "rossija",
+    "glauben",
+    "regierung",
+    "zuvor",
+    "mehrheit"
+   ]
+  },
+  "6": {
+   "label": "Conversation and small scenes",
+   "group": "People and everyday life",
+   "passages": 238,
+   "share_by_book": {
+    "applebaum": 0.1532016991818754,
+    "nicolay": 0.18294655282656938,
+    "miller": 0.056964549327997424,
+    "brumme": 0.029174182417065327,
+    "orth": 0.13555576751875875
+   },
+   "language_mix": {
+    "en": 0.6457664679810484,
+    "de": 0.3542335320189515
+   },
+   "terms_en": [
+    "said",
+    "man",
+    "cigarette",
+    "know",
+    "walk",
+    "marsik",
+    "car",
+    "christopher",
+    "don",
+    "asked",
+    "want",
+    "good",
+    "garden",
+    "got",
+    "table"
+   ],
+   "terms_de": [
+    "hund",
+    "wolodymyr",
+    "sage",
+    "fragt",
+    "augen",
+    "legt",
+    "klar",
+    "trägt",
+    "song",
+    "okay",
+    "socken",
+    "katzen",
+    "katze",
+    "weh",
+    "schmerz"
+   ]
+  },
+  "7": {
+   "label": "Music, leisure, daily routine",
+   "group": "People and everyday life",
+   "passages": 232,
+   "share_by_book": {
+    "applebaum": 0.05813404657016992,
+    "nicolay": 0.20227930943694286,
+    "miller": 0.06538119792067501,
+    "brumme": 0.055799545133715,
+    "orth": 0.1310886430115732
+   },
+   "language_mix": {
+    "en": 0.6262466177039041,
+    "de": 0.37375338229609584
+   },
+   "terms_en": [
+    "students",
+    "hiv",
+    "aids",
+    "bottles",
+    "water",
+    "festival",
+    "floor",
+    "punk",
+    "teachers",
+    "beer",
+    "lessons",
+    "gates",
+    "flat",
+    "men",
+    "wood"
+   ],
+   "terms_de": [
+    "wasser",
+    "musik",
+    "blumen",
+    "menschheit",
+    "owen",
+    "immerhin",
+    "aussieht",
+    "führt",
+    "goldenen",
+    "geschichten",
+    "denke",
+    "herum",
+    "bühne",
+    "the",
+    "steht"
+   ]
+  },
+  "8": {
+   "label": "Transport and lodging",
+   "group": "Place and movement",
+   "passages": 192,
+   "share_by_book": {
+    "applebaum": 0.12244336060415356,
+    "nicolay": 0.14194907285515476,
+    "miller": 0.048995669239003434,
+    "brumme": 0.07838600894047526,
+    "orth": 0.086306117258044
+   },
+   "language_mix": {
+    "en": 0.6515620602307909,
+    "de": 0.3484379397692091
+   },
+   "terms_en": [
+    "train",
+    "station",
+    "hotel",
+    "bus",
+    "genschaft",
+    "marta",
+    "railway",
+    "trains",
+    "business",
+    "grand",
+    "ticket",
+    "board",
+    "enokyan",
+    "case",
+    "parking"
+   ],
+   "terms_de": [
+    "zug",
+    "taxi",
+    "geld",
+    "poltawa",
+    "euro",
+    "zentrum",
+    "taxifahrer",
+    "steige",
+    "straße",
+    "blau",
+    "bus",
+    "fahre",
+    "webseite",
+    "fahrer",
+    "google"
+   ]
+  },
+  "9": {
+   "label": "Military operations",
+   "group": "War",
+   "passages": 205,
+   "share_by_book": {
+    "applebaum": 0.0,
+    "nicolay": 0.012449693459209389,
+    "miller": 0.1280827812021185,
+    "brumme": 0.05587797035526625,
+    "orth": 0.043590232735597104
+   },
+   "language_mix": {
+    "en": 0.8172769129576847,
+    "de": 0.18272308704231527
+   },
+   "terms_en": [
+    "troops",
+    "forces",
+    "russian",
+    "russians",
+    "ukrainian",
+    "mariupol",
+    "control",
+    "civilians",
+    "airport",
+    "tanks",
+    "military",
+    "kryvonozhko",
+    "days",
+    "russia",
+    "fighting"
+   ],
+   "terms_de": [
+    "russische",
+    "rakete",
+    "panzer",
+    "entfernt",
+    "soldaten",
+    "russen",
+    "auto",
+    "liegt",
+    "russischen",
+    "raketen",
+    "kilometer",
+    "freunde",
+    "steht",
+    "deutsche",
+    "fahren"
+   ]
+  },
+  "10": {
+   "label": "Soldiers and casualties",
+   "group": "War",
+   "passages": 229,
+   "share_by_book": {
+    "applebaum": 0.04763215859030837,
+    "nicolay": 0.01733930116222214,
+    "miller": 0.12153416683574592,
+    "brumme": 0.09407105325072543,
+    "orth": 0.06360485819661707
+   },
+   "language_mix": {
+    "en": 0.7484573360059741,
+    "de": 0.25154266399402586
+   },
+   "terms_en": [
+    "officer",
+    "soldier",
+    "zhilkin",
+    "girkin",
+    "rifle",
+    "shot",
+    "killed",
+    "khlyvnyuk",
+    "hospital",
+    "police",
+    "body",
+    "yuriy",
+    "mamchur",
+    "finger",
+    "skuratovsky"
+   ],
+   "terms_de": [
+    "mutter",
+    "gefahren",
+    "bandera",
+    "frau",
+    "raus",
+    "armee",
+    "job",
+    "lebt",
+    "wladimir",
+    "name",
+    "charkiw",
+    "militär",
+    "gespräch",
+    "donbass",
+    "front"
+   ]
+  },
+  "11": {
+   "label": "Domestic politics",
+   "group": "Politics and nation",
+   "passages": 192,
+   "share_by_book": {
+    "applebaum": 0.004247954688483323,
+    "nicolay": 0.07646594200173017,
+    "miller": 0.11269773527086496,
+    "brumme": 0.06250490157634696,
+    "orth": 0.023893552079359025
+   },
+   "language_mix": {
+    "en": 0.8549142696523939,
+    "de": 0.1450857303476061
+   },
+   "terms_en": [
+    "yanukovych",
+    "zelensky",
+    "maidan",
+    "president",
+    "government",
+    "political",
+    "party",
+    "vote",
+    "poroshenko",
+    "election",
+    "opposition",
+    "orange",
+    "protesters",
+    "oleksiy",
+    "leaders"
+   ],
+   "terms_de": [
+    "wut",
+    "präsidenten",
+    "ehefrauen",
+    "angst",
+    "mailorder",
+    "thema",
+    "ukrainische",
+    "menschen",
+    "land",
+    "russischen",
+    "ukrainer",
+    "russland",
+    "ukraine"
+   ]
+  }
+ },
+ "within_author": {
+  "miller": {
+   "P1": {
+    "0": 0.21419013635784376,
+    "1": 0.02650694532942526,
+    "2": 0.04240474066522238,
+    "3": 0.0947814451382694,
+    "4": 0.02679367911303683,
+    "5": 0.07088696317063846,
+    "6": 0.09608767681916656,
+    "7": 0.17133936536255895,
+    "8": 0.061074295909264685,
+    "9": 0.007455078373900854,
+    "10": 0.06757359500446031,
+    "11": 0.12090607875621256
+   },
+   "P2": {
+    "0": 0.024091211348775354,
+    "1": 0.12015128006206362,
+    "2": 0.048653441205807384,
+    "3": 0.046215227751302226,
+    "4": 0.18310151834201485,
+    "5": 0.07406073368059404,
+    "6": 0.05377923085448299,
+    "7": 0.03197384461930622,
+    "8": 0.03220935387343456,
+    "9": 0.10834811038457276,
+    "10": 0.1223678377479774,
+    "11": 0.15504821012966863
+   },
+   "P3": {
+    "0": 0.01399933941411113,
+    "1": 0.06880256104067685,
+    "2": 0.11616148784267893,
+    "3": 0.03071724383241444,
+    "4": 0.15147742574760537,
+    "5": 0.022942656063416247,
+    "6": 0.031606494067430574,
+    "7": 0.04215046113976473,
+    "8": 0.070149139967987,
+    "9": 0.26047409741101146,
+    "10": 0.1630376788028151,
+    "11": 0.028481414670088162
+   }
+  },
+  "brumme": {
+   "P2": {
+    "0": 0.03380893300248139,
+    "1": 0.34568858560794047,
+    "2": 0.015663771712158808,
+    "3": 0.03225806451612903,
+    "4": 0.0994106699751861,
+    "5": 0.12468982630272953,
+    "6": 0.016749379652605458,
+    "7": 0.05366004962779156,
+    "8": 0.031017369727047148,
+    "9": 0.03504962779156327,
+    "10": 0.09739454094292804,
+    "11": 0.11460918114143921
+   },
+   "P3": {
+    "0": 0.025584577854465402,
+    "1": 0.29148569048610695,
+    "2": 0.05093115963586601,
+    "3": 0.032307966918545844,
+    "4": 0.03801987267210091,
+    "5": 0.1587433807342179,
+    "6": 0.03784137561730232,
+    "7": 0.0640804426726959,
+    "8": 0.09246147438567263,
+    "9": 0.06497292794668888,
+    "10": 0.09924436246801928,
+    "11": 0.04432676860831796
+   }
+  }
+ },
+ "seed_shares": [
+  {
+   "applebaum": {
+    "War": 0.004326620516047829,
+    "Politics and nation": 0.10462555066079295,
+    "People and everyday life": 0.5644273127753304,
+    "Place and movement": 0.3266205160478288
+   },
+   "nicolay": {
+    "War": 0.016323767254673337,
+    "Politics and nation": 0.1971640275322526,
+    "People and everyday life": 0.6075525632828074,
+    "Place and movement": 0.17895964193026667
+   },
+   "miller": {
+    "War": 0.29372914203356865,
+    "Politics and nation": 0.33309079206050474,
+    "People and everyday life": 0.2485045231615255,
+    "Place and movement": 0.12467554274440114
+   },
+   "brumme": {
+    "War": 0.1610854050662693,
+    "Politics and nation": 0.5296839463571484,
+    "People and everyday life": 0.16779076150890126,
+    "Place and movement": 0.14143988706768096
+   },
+   "orth": {
+    "War": 0.14313875111280683,
+    "Politics and nation": 0.21405633981940736,
+    "People and everyday life": 0.4325480096655221,
+    "Place and movement": 0.21025689940226377
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.02619572057898049,
+    "Politics and nation": 0.09640497168030207,
+    "People and everyday life": 0.4549244808055381,
+    "Place and movement": 0.42247482693517935
+   },
+   "nicolay": {
+    "War": 0.06871779441080227,
+    "Politics and nation": 0.13446421183285065,
+    "People and everyday life": 0.6146989130025953,
+    "Place and movement": 0.18211908075375183
+   },
+   "miller": {
+    "War": 0.31442444256319485,
+    "Politics and nation": 0.3285431431949682,
+    "People and everyday life": 0.23849969565734516,
+    "Place and movement": 0.11853271858449181
+   },
+   "brumme": {
+    "War": 0.12226492039840013,
+    "Politics and nation": 0.5613285232530781,
+    "People and everyday life": 0.2039055760332523,
+    "Place and movement": 0.1125009803152694
+   },
+   "orth": {
+    "War": 0.1959652804273178,
+    "Politics and nation": 0.1893520284878545,
+    "People and everyday life": 0.4329772351519776,
+    "Place and movement": 0.18170545593285006
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.021947765890497167,
+    "Politics and nation": 0.1183920704845815,
+    "People and everyday life": 0.5588813719320327,
+    "Place and movement": 0.3007787916928886
+   },
+   "nicolay": {
+    "War": 0.014142249971790725,
+    "Politics and nation": 0.1823071425884831,
+    "People and everyday life": 0.6113514123443788,
+    "Place and movement": 0.19219919509534736
+   },
+   "miller": {
+    "War": 0.2290405860170292,
+    "Politics and nation": 0.41233182444676103,
+    "People and everyday life": 0.22571030777088244,
+    "Place and movement": 0.13291728176532733
+   },
+   "brumme": {
+    "War": 0.09744333777742922,
+    "Politics and nation": 0.5914830209395342,
+    "People and everyday life": 0.14151831228923223,
+    "Place and movement": 0.1695553289938044
+   },
+   "orth": {
+    "War": 0.1495453389291619,
+    "Politics and nation": 0.2257249141549027,
+    "People and everyday life": 0.4020571028869388,
+    "Place and movement": 0.22267264402899656
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.03512429200755192,
+    "Politics and nation": 0.1669288860918817,
+    "People and everyday life": 0.4977580239144116,
+    "Place and movement": 0.30018879798615483
+   },
+   "nicolay": {
+    "War": 0.0342648662880355,
+    "Politics and nation": 0.1452965735133712,
+    "People and everyday life": 0.6003686011960733,
+    "Place and movement": 0.22006995900252002
+   },
+   "miller": {
+    "War": 0.3732010550545368,
+    "Politics and nation": 0.2739013929798294,
+    "People and everyday life": 0.23591803037829442,
+    "Place and movement": 0.11697952158733935
+   },
+   "brumme": {
+    "War": 0.2056309309073798,
+    "Politics and nation": 0.5368990667398635,
+    "People and everyday life": 0.15979138891067368,
+    "Place and movement": 0.09767861344208298
+   },
+   "orth": {
+    "War": 0.19529759633727584,
+    "Politics and nation": 0.19491606257153757,
+    "People and everyday life": 0.4042986137606511,
+    "Place and movement": 0.2054877273305354
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.04373820012586532,
+    "Politics and nation": 0.10175424795468849,
+    "People and everyday life": 0.48438483322844555,
+    "Place and movement": 0.3701227186910006
+   },
+   "nicolay": {
+    "War": 0.07165155903260992,
+    "Politics and nation": 0.15488772708466544,
+    "People and everyday life": 0.5870538232971001,
+    "Place and movement": 0.18640689058562454
+   },
+   "miller": {
+    "War": 0.32623433684784964,
+    "Politics and nation": 0.3343361482113747,
+    "People and everyday life": 0.23186012831366185,
+    "Place and movement": 0.10756938662711378
+   },
+   "brumme": {
+    "War": 0.16434005176064623,
+    "Politics and nation": 0.5480354482001412,
+    "People and everyday life": 0.17649596110109012,
+    "Place and movement": 0.1111285389381225
+   },
+   "orth": {
+    "War": 0.19833396922294289,
+    "Politics and nation": 0.19885857815083302,
+    "People and everyday life": 0.3903249395904871,
+    "Place and movement": 0.212482513035737
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.0428335431088735,
+    "Politics and nation": 0.13266991818753934,
+    "People and everyday life": 0.4845814977973568,
+    "Place and movement": 0.3399150409062303
+   },
+   "nicolay": {
+    "War": 0.03558129913115432,
+    "Politics and nation": 0.20148944973107158,
+    "People and everyday life": 0.571219016812728,
+    "Place and movement": 0.19171023432504608
+   },
+   "miller": {
+    "War": 0.25853733619718605,
+    "Politics and nation": 0.4037752481966823,
+    "People and everyday life": 0.2180352757624308,
+    "Place and movement": 0.11965213984370081
+   },
+   "brumme": {
+    "War": 0.14445925809740412,
+    "Politics and nation": 0.5945416045800329,
+    "People and everyday life": 0.12242177084150263,
+    "Place and movement": 0.1385773664810603
+   },
+   "orth": {
+    "War": 0.1864905252448175,
+    "Politics and nation": 0.22939717665013354,
+    "People and everyday life": 0.3817404298613761,
+    "Place and movement": 0.2023718682436729
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.06517463813719321,
+    "Politics and nation": 0.06847860289490246,
+    "People and everyday life": 0.5237177470106985,
+    "Place and movement": 0.3426290119572058
+   },
+   "nicolay": {
+    "War": 0.05013728513935382,
+    "Politics and nation": 0.12731786211306279,
+    "People and everyday life": 0.5976981231428894,
+    "Place and movement": 0.224846729604694
+   },
+   "miller": {
+    "War": 0.3516591921976338,
+    "Politics and nation": 0.2608741280757848,
+    "People and everyday life": 0.27116580727763745,
+    "Place and movement": 0.1163008724489439
+   },
+   "brumme": {
+    "War": 0.18182887616657517,
+    "Politics and nation": 0.49756881813191123,
+    "People and everyday life": 0.21602227276292055,
+    "Place and movement": 0.10458003293859305
+   },
+   "orth": {
+    "War": 0.21515324939590488,
+    "Politics and nation": 0.17280300139895713,
+    "People and everyday life": 0.4555354190512527,
+    "Place and movement": 0.1565083301538853
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.05105412208936438,
+    "Politics and nation": 0.15033039647577093,
+    "People and everyday life": 0.417282882315922,
+    "Place and movement": 0.38133259911894274
+   },
+   "nicolay": {
+    "War": 0.045999924775266106,
+    "Politics and nation": 0.21040358069733328,
+    "People and everyday life": 0.4830556286907135,
+    "Place and movement": 0.2605408658366871
+   },
+   "miller": {
+    "War": 0.3147042978779971,
+    "Politics and nation": 0.3825272334203217,
+    "People and everyday life": 0.19167290510805912,
+    "Place and movement": 0.1110955635936221
+   },
+   "brumme": {
+    "War": 0.15928162497059054,
+    "Politics and nation": 0.587836248137401,
+    "People and everyday life": 0.12708807152380205,
+    "Place and movement": 0.12579405536820643
+   },
+   "orth": {
+    "War": 0.19668065623807707,
+    "Politics and nation": 0.23944423248124125,
+    "People and everyday life": 0.3692134045529696,
+    "Place and movement": 0.19466170672771207
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.038978917558212714,
+    "Politics and nation": 0.08665040906230334,
+    "People and everyday life": 0.5506214600377596,
+    "Place and movement": 0.32374921334172435
+   },
+   "nicolay": {
+    "War": 0.06360251250611201,
+    "Politics and nation": 0.12720502501222403,
+    "People and everyday life": 0.628841162974386,
+    "Place and movement": 0.180351299507278
+   },
+   "miller": {
+    "War": 0.3486437511806396,
+    "Politics and nation": 0.25536097837418054,
+    "People and everyday life": 0.2748039263700667,
+    "Place and movement": 0.12119134407511317
+   },
+   "brumme": {
+    "War": 0.20849345149400048,
+    "Politics and nation": 0.4797270802290016,
+    "People and everyday life": 0.19057328836953966,
+    "Place and movement": 0.12120617990745824
+   },
+   "orth": {
+    "War": 0.21477171563016662,
+    "Politics and nation": 0.16862202721607528,
+    "People and everyday life": 0.45427953707236424,
+    "Place and movement": 0.16232672008139387
+   }
+  },
+  {
+   "applebaum": {
+    "War": 0.004051290119572058,
+    "Politics and nation": 0.09876494650723726,
+    "People and everyday life": 0.4599984266834487,
+    "Place and movement": 0.43718533668974197
+   },
+   "nicolay": {
+    "War": 0.03381351788468048,
+    "Politics and nation": 0.1733930116222214,
+    "People and everyday life": 0.6120284349494114,
+    "Place and movement": 0.18076503554368675
+   },
+   "miller": {
+    "War": 0.2774695482435581,
+    "Politics and nation": 0.3464119050450917,
+    "People and everyday life": 0.25280729862661006,
+    "Place and movement": 0.12331124808474019
+   },
+   "brumme": {
+    "War": 0.10614853736961807,
+    "Politics and nation": 0.5693671084620814,
+    "People and everyday life": 0.22186495176848875,
+    "Place and movement": 0.10261940239981178
+   },
+   "orth": {
+    "War": 0.14876637415744626,
+    "Politics and nation": 0.20849230573572428,
+    "People and everyday life": 0.4567277120691848,
+    "Place and movement": 0.18601360803764466
+   }
+  }
+ ]
+}

@@ -1,0 +1,2424 @@
+{
+ "gazetteer": {
+  "places": 351,
+  "ua": 169,
+  "foreign": 133,
+  "state": 49
+ },
+ "books": {
+  "applebaum": {
+   "volume": {
+    "words": 97780,
+    "ua": 368,
+    "foreign": 832,
+    "focus": 0.30666666666666664,
+    "ua_per_1000": 3.763550828390264,
+    "foreign_per_1000": 8.508897525056248,
+    "region_share": {
+     "West": 0.7119565217391305,
+     "Centre": 0.07880434782608696,
+     "South": 0.20380434782608695,
+     "East": 0.005434782608695652
+    },
+    "regional_spread": 0.5731944602992908,
+    "pairs_UU": 55,
+    "pairs_UF": 95,
+    "pairs_FF": 146,
+    "outward_linkage": 0.6333333333333333,
+    "outward_linkage_window": 0.6330532212885154,
+    "state_ukraine": 129,
+    "state_other": 799,
+    "state_ukraine_share": 0.13900862068965517,
+    "outward_to": {
+     "Russia and Belarus": 34,
+     "Central and Eastern Europe": 41,
+     "Western Europe and North America": 15,
+     "Elsewhere": 5
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.35789473684210527,
+     "Central and Eastern Europe": 0.43157894736842106,
+     "Western Europe and North America": 0.15789473684210525,
+     "Elsewhere": 0.05263157894736842
+    },
+    "n_units": 27,
+    "focus_ci": [
+     0.1714354872669579,
+     0.4400885255870521
+    ],
+    "regional_spread_ci": [
+     0.2932024177312299,
+     0.7057409296743589
+    ],
+    "outward_linkage_ci": [
+     0.4904149292031343,
+     0.7777777777777778
+    ]
+   },
+   "ukraine": {
+    "words": 25329,
+    "ua": 279,
+    "foreign": 108,
+    "focus": 0.7209302325581395,
+    "ua_per_1000": 11.015042046665878,
+    "foreign_per_1000": 4.263887243870662,
+    "region_share": {
+     "West": 0.7670250896057348,
+     "Centre": 0.03942652329749104,
+     "South": 0.18996415770609318,
+     "East": 0.0035842293906810036
+    },
+    "regional_spread": 0.4808644785190646,
+    "pairs_UU": 26,
+    "pairs_UF": 44,
+    "pairs_FF": 17,
+    "outward_linkage": 0.6285714285714286,
+    "outward_linkage_window": 0.6062176165803109,
+    "state_ukraine": 48,
+    "state_other": 139,
+    "state_ukraine_share": 0.25668449197860965,
+    "outward_to": {
+     "Russia and Belarus": 17,
+     "Central and Eastern Europe": 14,
+     "Western Europe and North America": 13,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.38636363636363635,
+     "Central and Eastern Europe": 0.3181818181818182,
+     "Western Europe and North America": 0.29545454545454547,
+     "Elsewhere": 0.0
+    },
+    "n_units": 7,
+    "focus_ci": [
+     0.657116724738676,
+     0.7963656439969604
+    ],
+    "regional_spread_ci": [
+     0.12071764469936992,
+     0.6220709680497073
+    ],
+    "outward_linkage_ci": [
+     0.41459437963944856,
+     0.7846153846153846
+    ]
+   },
+   "distinct_ua_places": 22,
+   "top_ua": [
+    [
+     "Odesa",
+     63
+    ],
+    [
+     "Lviv",
+     62
+    ],
+    [
+     "Chernivtsi",
+     49
+    ],
+    [
+     "Kamianets-Podilskyi",
+     44
+    ],
+    [
+     "Kyiv",
+     28
+    ],
+    [
+     "Bukovyna",
+     21
+    ],
+    [
+     "Transcarpathia",
+     20
+    ],
+    [
+     "Uzhhorod",
+     15
+    ],
+    [
+     "Woroniaki",
+     14
+    ],
+    [
+     "Drohobych",
+     14
+    ]
+   ],
+   "top_foreign": [
+    [
+     "Vilnius",
+     97
+    ],
+    [
+     "Kaliningrad",
+     71
+    ],
+    [
+     "Minsk",
+     58
+    ],
+    [
+     "Brest",
+     51
+    ],
+    [
+     "Prussia",
+     38
+    ],
+    [
+     "Moscow",
+     36
+    ],
+    [
+     "Perloja",
+     34
+    ],
+    [
+     "Chișinău",
+     33
+    ],
+    [
+     "Transnistria",
+     31
+    ],
+    [
+     "Warsaw",
+     28
+    ]
+   ],
+   "edges": [
+    {
+     "a": "Bukovyna",
+     "b": "Chernivtsi",
+     "w": 5,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernivtsi",
+     "b": "Uzhhorod",
+     "w": 5,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Moscow",
+     "w": 4,
+     "kind": "uf"
+    },
+    {
+     "a": "Odesa",
+     "b": "Saint Petersburg",
+     "w": 4,
+     "kind": "uf"
+    },
+    {
+     "a": "London",
+     "b": "Paris",
+     "w": 3,
+     "kind": "ff"
+    },
+    {
+     "a": "Moscow",
+     "b": "Saint Petersburg",
+     "w": 3,
+     "kind": "ff"
+    },
+    {
+     "a": "Kamianets-Podilskyi",
+     "b": "Venice",
+     "w": 3,
+     "kind": "uf"
+    },
+    {
+     "a": "Moscow",
+     "b": "Odesa",
+     "w": 3,
+     "kind": "fu"
+    },
+    {
+     "a": "Lviv",
+     "b": "Woroniaki",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Bukovyna",
+     "b": "Uzhhorod",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernivtsi",
+     "b": "Kyiv",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernivtsi",
+     "b": "Paris",
+     "w": 2,
+     "kind": "uf"
+    },
+    {
+     "a": "Chernivtsi",
+     "b": "Moscow",
+     "w": 2,
+     "kind": "uf"
+    },
+    {
+     "a": "London",
+     "b": "Lviv",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "London",
+     "b": "Venice",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Lviv",
+     "b": "Paris",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Lviv",
+     "b": "Venice",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Paris",
+     "b": "Venice",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Nowogródek",
+     "b": "Vilnius",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Lviv",
+     "b": "Moscow",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Galicia",
+     "b": "Woroniaki",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Silesia",
+     "b": "Woroniaki",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Carpathians",
+     "b": "Lviv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Drohobych",
+     "b": "Galicia",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Drohobych",
+     "b": "Nuremberg",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "London",
+     "b": "Vienna",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Paris",
+     "b": "Vienna",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Khust",
+     "b": "Munich",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Khust",
+     "b": "Transcarpathia",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Berlin",
+     "b": "Khust",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Budapest",
+     "b": "Transcarpathia",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Khotyn",
+     "b": "Nowogródek",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Balkans",
+     "b": "Bukovyna",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Balkans",
+     "b": "Chernivtsi",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Bucharest",
+     "b": "Chernivtsi",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Bucharest",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Bucharest",
+     "b": "Uzhhorod",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Bucharest",
+     "b": "Vienna",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Uzhhorod",
+     "b": "Vienna",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Saint Petersburg",
+     "b": "Siberia",
+     "w": 1,
+     "kind": "ff"
+    }
+   ]
+  },
+  "nicolay": {
+   "volume": {
+    "words": 100553,
+    "ua": 179,
+    "foreign": 631,
+    "focus": 0.22098765432098766,
+    "ua_per_1000": 1.7801557387646316,
+    "foreign_per_1000": 6.275297604248506,
+    "region_share": {
+     "West": 0.24022346368715083,
+     "Centre": 0.4301675977653631,
+     "South": 0.15083798882681565,
+     "East": 0.1787709497206704
+    },
+    "regional_spread": 0.9367293672798621,
+    "pairs_UU": 36,
+    "pairs_UF": 28,
+    "pairs_FF": 174,
+    "outward_linkage": 0.4375,
+    "outward_linkage_window": 0.48091603053435117,
+    "state_ukraine": 88,
+    "state_other": 500,
+    "state_ukraine_share": 0.14965986394557823,
+    "outward_to": {
+     "Russia and Belarus": 23,
+     "Central and Eastern Europe": 2,
+     "Western Europe and North America": 1,
+     "Elsewhere": 2
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.8214285714285714,
+     "Central and Eastern Europe": 0.07142857142857142,
+     "Western Europe and North America": 0.03571428571428571,
+     "Elsewhere": 0.07142857142857142
+    },
+    "n_units": 13,
+    "focus_ci": [
+     0.02284152179058941,
+     0.48454833773499717
+    ],
+    "regional_spread_ci": [
+     0.6707516169102687,
+     0.9748750419148658
+    ],
+    "outward_linkage_ci": [
+     0.2976929181467765,
+     1.0
+    ]
+   },
+   "ukraine": {
+    "words": 25859,
+    "ua": 161,
+    "foreign": 47,
+    "focus": 0.7740384615384616,
+    "ua_per_1000": 6.226072160563054,
+    "foreign_per_1000": 1.8175490158165435,
+    "region_share": {
+     "West": 0.2422360248447205,
+     "Centre": 0.4472049689440994,
+     "South": 0.13664596273291926,
+     "East": 0.17391304347826086
+    },
+    "regional_spread": 0.9229779419544899,
+    "pairs_UU": 35,
+    "pairs_UF": 13,
+    "pairs_FF": 13,
+    "outward_linkage": 0.2708333333333333,
+    "outward_linkage_window": 0.32653061224489793,
+    "state_ukraine": 56,
+    "state_other": 82,
+    "state_ukraine_share": 0.4057971014492754,
+    "outward_to": {
+     "Russia and Belarus": 8,
+     "Central and Eastern Europe": 2,
+     "Western Europe and North America": 1,
+     "Elsewhere": 2
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.6153846153846154,
+     "Central and Eastern Europe": 0.15384615384615385,
+     "Western Europe and North America": 0.07692307692307693,
+     "Elsewhere": 0.15384615384615385
+    },
+    "n_units": 2,
+    "focus_ci": [
+     NaN,
+     NaN
+    ],
+    "regional_spread_ci": [
+     NaN,
+     NaN
+    ],
+    "outward_linkage_ci": [
+     NaN,
+     NaN
+    ]
+   },
+   "distinct_ua_places": 27,
+   "top_ua": [
+    [
+     "Kyiv",
+     50
+    ],
+    [
+     "Lviv",
+     18
+    ],
+    [
+     "Donetsk",
+     15
+    ],
+    [
+     "Zhytomyr",
+     11
+    ],
+    [
+     "Kharkiv",
+     10
+    ],
+    [
+     "Crimea",
+     10
+    ],
+    [
+     "Mezhyhirya",
+     8
+    ],
+    [
+     "Dnipro",
+     7
+    ],
+    [
+     "Odesa",
+     6
+    ],
+    [
+     "Bila Tserkva",
+     6
+    ]
+   ],
+   "top_foreign": [
+    [
+     "Moscow",
+     36
+    ],
+    [
+     "Saint Petersburg",
+     35
+    ],
+    [
+     "Sofia",
+     31
+    ],
+    [
+     "Siberia",
+     30
+    ],
+    [
+     "Balkans",
+     27
+    ],
+    [
+     "Belgrade",
+     27
+    ],
+    [
+     "Rijeka",
+     24
+    ],
+    [
+     "Zagreb",
+     19
+    ],
+    [
+     "Irkutsk",
+     18
+    ],
+    [
+     "US states",
+     17
+    ]
+   ],
+   "edges": [
+    {
+     "a": "Kyiv",
+     "b": "Odesa",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Luhansk",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Bila Tserkva",
+     "b": "Kyiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Zhytomyr",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Moscow",
+     "w": 2,
+     "kind": "uf"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Lviv",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Brooklyn",
+     "b": "Frankfurt",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Brooklyn",
+     "b": "Krakow",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Brooklyn",
+     "b": "London",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Brooklyn",
+     "b": "US cities",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Frankfurt",
+     "b": "Krakow",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Frankfurt",
+     "b": "London",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Frankfurt",
+     "b": "US cities",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Krakow",
+     "b": "London",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Krakow",
+     "b": "US cities",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "London",
+     "b": "US cities",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Beijing",
+     "b": "Kharkiv",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Rostov-on-Don",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Izium",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Kharkiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Izium",
+     "b": "Kharkiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Donetsk",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Novorossiya",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Novorossiya",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Lviv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Kerch",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernivtsi",
+     "b": "Odesa",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernivtsi",
+     "b": "Ruse",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Lviv",
+     "b": "Ternopil",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Luhansk",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Sofia",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Moscow",
+     "b": "Sofia",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Bila Tserkva",
+     "b": "Odesa",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Bila Tserkva",
+     "b": "Zhytomyr",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Krasnoyarsk",
+     "b": "Siberia",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Kremenchuk",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kremenchuk",
+     "b": "Lviv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Minsk",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Moscow",
+     "b": "Saint Petersburg",
+     "w": 1,
+     "kind": "ff"
+    }
+   ]
+  },
+  "miller": {
+   "volume": {
+    "words": 141637,
+    "ua": 1340,
+    "foreign": 187,
+    "focus": 0.8775376555337263,
+    "ua_per_1000": 9.460804733226487,
+    "foreign_per_1000": 1.3202764814278756,
+    "region_share": {
+     "West": 0.04253731343283582,
+     "Centre": 0.28880597014925374,
+     "South": 0.1455223880597015,
+     "East": 0.5231343283582089
+    },
+    "regional_spread": 0.8024518172778293,
+    "pairs_UU": 366,
+    "pairs_UF": 50,
+    "pairs_FF": 30,
+    "outward_linkage": 0.1201923076923077,
+    "outward_linkage_window": 0.2102803738317757,
+    "state_ukraine": 514,
+    "state_other": 421,
+    "state_ukraine_share": 0.5497326203208556,
+    "outward_to": {
+     "Russia and Belarus": 44,
+     "Central and Eastern Europe": 1,
+     "Western Europe and North America": 5,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.88,
+     "Central and Eastern Europe": 0.02,
+     "Western Europe and North America": 0.1,
+     "Elsewhere": 0.0
+    },
+    "n_units": 46,
+    "focus_ci": [
+     0.8479969001148105,
+     0.9051138101126135
+    ],
+    "regional_spread_ci": [
+     0.68400848733143,
+     0.8743277859673194
+    ],
+    "outward_linkage_ci": [
+     0.08200285904565566,
+     0.1680491363440523
+    ]
+   },
+   "ukraine": {
+    "words": 141637,
+    "ua": 1340,
+    "foreign": 187,
+    "focus": 0.8775376555337263,
+    "ua_per_1000": 9.460804733226487,
+    "foreign_per_1000": 1.3202764814278756,
+    "region_share": {
+     "West": 0.04253731343283582,
+     "Centre": 0.28880597014925374,
+     "South": 0.1455223880597015,
+     "East": 0.5231343283582089
+    },
+    "regional_spread": 0.8024518172778293,
+    "pairs_UU": 366,
+    "pairs_UF": 50,
+    "pairs_FF": 30,
+    "outward_linkage": 0.1201923076923077,
+    "outward_linkage_window": 0.2102803738317757,
+    "state_ukraine": 514,
+    "state_other": 421,
+    "state_ukraine_share": 0.5497326203208556,
+    "outward_to": {
+     "Russia and Belarus": 44,
+     "Central and Eastern Europe": 1,
+     "Western Europe and North America": 5,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.88,
+     "Central and Eastern Europe": 0.02,
+     "Western Europe and North America": 0.1,
+     "Elsewhere": 0.0
+    },
+    "n_units": 46,
+    "focus_ci": [
+     0.8479969001148105,
+     0.9051138101126135
+    ],
+    "regional_spread_ci": [
+     0.68400848733143,
+     0.8743277859673194
+    ],
+    "outward_linkage_ci": [
+     0.08200285904565566,
+     0.1680491363440523
+    ]
+   },
+   "distinct_ua_places": 94,
+   "top_ua": [
+    [
+     "Kyiv",
+     309
+    ],
+    [
+     "Donetsk",
+     148
+    ],
+    [
+     "Bakhmut",
+     124
+    ],
+    [
+     "Donbas",
+     108
+    ],
+    [
+     "Crimea",
+     97
+    ],
+    [
+     "Mariupol",
+     53
+    ],
+    [
+     "Luhansk",
+     37
+    ],
+    [
+     "Torez",
+     27
+    ],
+    [
+     "Irpin",
+     26
+    ],
+    [
+     "Dnipro",
+     25
+    ]
+   ],
+   "top_foreign": [
+    [
+     "Moscow",
+     79
+    ],
+    [
+     "Washington",
+     17
+    ],
+    [
+     "Minsk",
+     11
+    ],
+    [
+     "Portland",
+     9
+    ],
+    [
+     "US states",
+     9
+    ],
+    [
+     "London",
+     6
+    ],
+    [
+     "Saint Petersburg",
+     5
+    ],
+    [
+     "Paris",
+     4
+    ],
+    [
+     "Sofia",
+     4
+    ],
+    [
+     "Caucasus",
+     4
+    ]
+   ],
+   "edges": [
+    {
+     "a": "Donetsk",
+     "b": "Luhansk",
+     "w": 19,
+     "kind": "uu"
+    },
+    {
+     "a": "Donbas",
+     "b": "Kyiv",
+     "w": 16,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Moscow",
+     "w": 15,
+     "kind": "uf"
+    },
+    {
+     "a": "Crimea",
+     "b": "Kyiv",
+     "w": 11,
+     "kind": "uu"
+    },
+    {
+     "a": "Donbas",
+     "b": "Donetsk",
+     "w": 10,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Moscow",
+     "w": 9,
+     "kind": "uf"
+    },
+    {
+     "a": "Crimea",
+     "b": "Donbas",
+     "w": 9,
+     "kind": "uu"
+    },
+    {
+     "a": "Kramatorsk",
+     "b": "Sloviansk",
+     "w": 6,
+     "kind": "uu"
+    },
+    {
+     "a": "Kharkiv",
+     "b": "Kyiv",
+     "w": 5,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Sloviansk",
+     "w": 5,
+     "kind": "uu"
+    },
+    {
+     "a": "Hostomel",
+     "b": "Kyiv",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Soledar",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Donbas",
+     "b": "Moscow",
+     "w": 4,
+     "kind": "uf"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Krasne",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Donetsk",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Dnipro",
+     "b": "Odesa",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Mariupol",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Torez",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Kyiv",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Dnipro",
+     "b": "Donbas",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Kharkiv",
+     "b": "Odesa",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Bucha",
+     "b": "Irpin",
+     "w": 4,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Kramatorsk",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Dnipro",
+     "b": "Kyiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Boryspil",
+     "b": "Kyiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Donetsk",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Dnipro",
+     "b": "Mykolaiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Mykolaiv",
+     "b": "Odesa",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Horlivka",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Moscow",
+     "b": "Saint Petersburg",
+     "w": 3,
+     "kind": "ff"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Washington",
+     "w": 3,
+     "kind": "uf"
+    },
+    {
+     "a": "Crimea",
+     "b": "Simferopol",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Dnipro",
+     "b": "Kharkiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Donbas",
+     "b": "Kharkiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Sloviansk",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Minsk",
+     "w": 3,
+     "kind": "uf"
+    },
+    {
+     "a": "Irpin",
+     "b": "Kyiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Bucha",
+     "b": "Kyiv",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Mariupol",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Ivanivske",
+     "b": "Krasne",
+     "w": 3,
+     "kind": "uu"
+    }
+   ]
+  },
+  "brumme": {
+   "volume": {
+    "words": 25808,
+    "ua": 202,
+    "foreign": 61,
+    "focus": 0.7680608365019012,
+    "ua_per_1000": 7.82703037817731,
+    "foreign_per_1000": 2.3636081835089895,
+    "region_share": {
+     "West": 0.039603960396039604,
+     "Centre": 0.5693069306930693,
+     "South": 0.13861386138613863,
+     "East": 0.2524752475247525
+    },
+    "regional_spread": 0.7718508252452976,
+    "pairs_UU": 27,
+    "pairs_UF": 16,
+    "pairs_FF": 11,
+    "outward_linkage": 0.37209302325581395,
+    "outward_linkage_window": 0.30612244897959184,
+    "state_ukraine": 108,
+    "state_other": 193,
+    "state_ukraine_share": 0.3588039867109635,
+    "outward_to": {
+     "Russia and Belarus": 3,
+     "Central and Eastern Europe": 1,
+     "Western Europe and North America": 11,
+     "Elsewhere": 1
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.1875,
+     "Central and Eastern Europe": 0.0625,
+     "Western Europe and North America": 0.6875,
+     "Elsewhere": 0.0625
+    },
+    "n_units": 19,
+    "focus_ci": [
+     0.6747534288796425,
+     0.8643514105985513
+    ],
+    "regional_spread_ci": [
+     0.696209161320558,
+     0.8269095364505313
+    ],
+    "outward_linkage_ci": [
+     0.11997619047619047,
+     0.6428968253968252
+    ]
+   },
+   "ukraine": {
+    "words": 25808,
+    "ua": 202,
+    "foreign": 61,
+    "focus": 0.7680608365019012,
+    "ua_per_1000": 7.82703037817731,
+    "foreign_per_1000": 2.3636081835089895,
+    "region_share": {
+     "West": 0.039603960396039604,
+     "Centre": 0.5693069306930693,
+     "South": 0.13861386138613863,
+     "East": 0.2524752475247525
+    },
+    "regional_spread": 0.7718508252452976,
+    "pairs_UU": 27,
+    "pairs_UF": 16,
+    "pairs_FF": 11,
+    "outward_linkage": 0.37209302325581395,
+    "outward_linkage_window": 0.30612244897959184,
+    "state_ukraine": 108,
+    "state_other": 193,
+    "state_ukraine_share": 0.3588039867109635,
+    "outward_to": {
+     "Russia and Belarus": 3,
+     "Central and Eastern Europe": 1,
+     "Western Europe and North America": 11,
+     "Elsewhere": 1
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.1875,
+     "Central and Eastern Europe": 0.0625,
+     "Western Europe and North America": 0.6875,
+     "Elsewhere": 0.0625
+    },
+    "n_units": 19,
+    "focus_ci": [
+     0.6747534288796425,
+     0.8643514105985513
+    ],
+    "regional_spread_ci": [
+     0.696209161320558,
+     0.8269095364505313
+    ],
+    "outward_linkage_ci": [
+     0.11997619047619047,
+     0.6428968253968252
+    ]
+   },
+   "distinct_ua_places": 29,
+   "top_ua": [
+    [
+     "Poltava",
+     78
+    ],
+    [
+     "Kyiv",
+     26
+    ],
+    [
+     "Donbas",
+     18
+    ],
+    [
+     "Kharkiv",
+     15
+    ],
+    [
+     "Crimea",
+     11
+    ],
+    [
+     "Dnipro",
+     11
+    ],
+    [
+     "Donetsk",
+     7
+    ],
+    [
+     "Lozova",
+     3
+    ],
+    [
+     "Blyzniuky",
+     3
+    ],
+    [
+     "Uzhhorod",
+     2
+    ]
+   ],
+   "top_foreign": [
+    [
+     "Berlin",
+     17
+    ],
+    [
+     "Moscow",
+     8
+    ],
+    [
+     "Saratov",
+     7
+    ],
+    [
+     "Munich",
+     3
+    ],
+    [
+     "Amsterdam",
+     2
+    ],
+    [
+     "Hannover",
+     2
+    ],
+    [
+     "Prague",
+     2
+    ],
+    [
+     "Bavaria",
+     2
+    ],
+    [
+     "Brussels",
+     2
+    ],
+    [
+     "Paris",
+     1
+    ]
+   ],
+   "edges": [
+    {
+     "a": "Crimea",
+     "b": "Donbas",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Luhansk",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Berlin",
+     "b": "Donbas",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Berlin",
+     "b": "Donetsk",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Donbas",
+     "b": "Donetsk",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Amsterdam",
+     "b": "Paris",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Rostov-on-Don",
+     "b": "Saratov",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Rostov-on-Don",
+     "b": "Volgograd",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Saratov",
+     "b": "Volgograd",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Grozny",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Blyzniuky",
+     "b": "Lozova",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Blyzniuky",
+     "b": "Crimea",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Donbas",
+     "b": "Nikopol",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Berlin",
+     "b": "Kaliningrad",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Berlin",
+     "b": "Warsaw",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Kaliningrad",
+     "b": "Warsaw",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Hannover",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Beijing",
+     "b": "Moscow",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Beijing",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Moscow",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Amsterdam",
+     "b": "Madrid",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Amsterdam",
+     "b": "Nuremberg",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Amsterdam",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Madrid",
+     "b": "Nuremberg",
+     "w": 1,
+     "kind": "ff"
+    },
+    {
+     "a": "Madrid",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Nuremberg",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Poltava",
+     "b": "Prague",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Berlin",
+     "b": "Kremenchuk",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Berlin",
+     "b": "Myrhorod",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Berlin",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Berlin",
+     "b": "Western Ukraine",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Kremenchuk",
+     "b": "Myrhorod",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kremenchuk",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kremenchuk",
+     "b": "Western Ukraine",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Myrhorod",
+     "b": "Poltava",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Myrhorod",
+     "b": "Western Ukraine",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Poltava",
+     "b": "Western Ukraine",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Berdiansk",
+     "b": "Lokhvytsia",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Poltava",
+     "b": "Sumy",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernivtsi",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "uu"
+    }
+   ]
+  },
+  "orth": {
+   "volume": {
+    "words": 63248,
+    "ua": 460,
+    "foreign": 103,
+    "focus": 0.8170515097690941,
+    "ua_per_1000": 7.272957247660005,
+    "foreign_per_1000": 1.6285099924108273,
+    "region_share": {
+     "West": 0.14565217391304347,
+     "Centre": 0.27391304347826084,
+     "South": 0.26304347826086955,
+     "East": 0.3173913043478261
+    },
+    "regional_spread": 0.9744166739196128,
+    "pairs_UU": 125,
+    "pairs_UF": 26,
+    "pairs_FF": 37,
+    "outward_linkage": 0.17218543046357615,
+    "outward_linkage_window": 0.2644927536231884,
+    "state_ukraine": 138,
+    "state_other": 267,
+    "state_ukraine_share": 0.34074074074074073,
+    "outward_to": {
+     "Russia and Belarus": 9,
+     "Central and Eastern Europe": 9,
+     "Western Europe and North America": 8,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.34615384615384615,
+     "Central and Eastern Europe": 0.34615384615384615,
+     "Western Europe and North America": 0.3076923076923077,
+     "Elsewhere": 0.0
+    },
+    "n_units": 15,
+    "focus_ci": [
+     0.7534350777680817,
+     0.8824839743589743
+    ],
+    "regional_spread_ci": [
+     0.8668460598218067,
+     0.9960218246671357
+    ],
+    "outward_linkage_ci": [
+     0.0851063829787234,
+     0.30097672242367524
+    ]
+   },
+   "ukraine": {
+    "words": 63248,
+    "ua": 460,
+    "foreign": 103,
+    "focus": 0.8170515097690941,
+    "ua_per_1000": 7.272957247660005,
+    "foreign_per_1000": 1.6285099924108273,
+    "region_share": {
+     "West": 0.14565217391304347,
+     "Centre": 0.27391304347826084,
+     "South": 0.26304347826086955,
+     "East": 0.3173913043478261
+    },
+    "regional_spread": 0.9744166739196128,
+    "pairs_UU": 125,
+    "pairs_UF": 26,
+    "pairs_FF": 37,
+    "outward_linkage": 0.17218543046357615,
+    "outward_linkage_window": 0.2644927536231884,
+    "state_ukraine": 138,
+    "state_other": 267,
+    "state_ukraine_share": 0.34074074074074073,
+    "outward_to": {
+     "Russia and Belarus": 9,
+     "Central and Eastern Europe": 9,
+     "Western Europe and North America": 8,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.34615384615384615,
+     "Central and Eastern Europe": 0.34615384615384615,
+     "Western Europe and North America": 0.3076923076923077,
+     "Elsewhere": 0.0
+    },
+    "n_units": 15,
+    "focus_ci": [
+     0.7534350777680817,
+     0.8824839743589743
+    ],
+    "regional_spread_ci": [
+     0.8668460598218067,
+     0.9960218246671357
+    ],
+    "outward_linkage_ci": [
+     0.0851063829787234,
+     0.30097672242367524
+    ]
+   },
+   "distinct_ua_places": 70,
+   "top_ua": [
+    [
+     "Kyiv",
+     70
+    ],
+    [
+     "Kharkiv",
+     28
+    ],
+    [
+     "Dnipro",
+     25
+    ],
+    [
+     "Odesa",
+     25
+    ],
+    [
+     "Zaporizhzhia",
+     25
+    ],
+    [
+     "Bakhmut",
+     21
+    ],
+    [
+     "Carpathians",
+     16
+    ],
+    [
+     "Crimea",
+     16
+    ],
+    [
+     "Lyman",
+     15
+    ],
+    [
+     "Lviv",
+     13
+    ]
+   ],
+   "top_foreign": [
+    [
+     "Moscow",
+     18
+    ],
+    [
+     "Hamburg",
+     14
+    ],
+    [
+     "Volgograd",
+     7
+    ],
+    [
+     "Munich",
+     5
+    ],
+    [
+     "Saint Petersburg",
+     5
+    ],
+    [
+     "Krakow",
+     4
+    ],
+    [
+     "Paris",
+     4
+    ],
+    [
+     "Sochi",
+     4
+    ],
+    [
+     "Berlin",
+     3
+    ],
+    [
+     "Warsaw",
+     3
+    ]
+   ],
+   "edges": [
+    {
+     "a": "Kyiv",
+     "b": "Odesa",
+     "w": 5,
+     "kind": "uu"
+    },
+    {
+     "a": "Kharkiv",
+     "b": "Kyiv",
+     "w": 5,
+     "kind": "uu"
+    },
+    {
+     "a": "Hamburg",
+     "b": "Kyiv",
+     "w": 3,
+     "kind": "fu"
+    },
+    {
+     "a": "Kharkiv",
+     "b": "Poltava",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Moscow",
+     "b": "Saint Petersburg",
+     "w": 3,
+     "kind": "ff"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Kostiantynivka",
+     "w": 3,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Luhansk",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Poltava",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Kramatorsk",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Moscow",
+     "b": "Rostov-on-Don",
+     "w": 2,
+     "kind": "ff"
+    },
+    {
+     "a": "Krakow",
+     "b": "Kyiv",
+     "w": 2,
+     "kind": "fu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Mariupol",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Mariupol",
+     "b": "Zaporizhzhia",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Sevastopol",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Moscow",
+     "b": "Siberia",
+     "w": 2,
+     "kind": "ff"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Donetsk",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Bakhmut",
+     "b": "Lyman",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Lyman",
+     "w": 2,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Przemysl",
+     "w": 1,
+     "kind": "uf"
+    },
+    {
+     "a": "Berlin",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "fu"
+    },
+    {
+     "a": "Chernihiv",
+     "b": "Kharkiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernihiv",
+     "b": "Kherson",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernihiv",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernihiv",
+     "b": "Sumy",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kharkiv",
+     "b": "Kherson",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kharkiv",
+     "b": "Sumy",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kherson",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kherson",
+     "b": "Sumy",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Kyiv",
+     "b": "Sumy",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Donetsk",
+     "b": "Simferopol",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Luhansk",
+     "b": "Simferopol",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Borodianka",
+     "b": "Kyiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Carpathians",
+     "b": "Chernihiv",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Carpathians",
+     "b": "Khotyn",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Chernihiv",
+     "b": "Khotyn",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Crimea",
+     "b": "Kerch",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Mariupol",
+     "b": "Vinnytsia",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Dnipro",
+     "b": "Troieshchyna",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Carpathians",
+     "b": "Ivano-Frankivsk",
+     "w": 1,
+     "kind": "uu"
+    },
+    {
+     "a": "Drohobych",
+     "b": "Ivano-Frankivsk",
+     "w": 1,
+     "kind": "uu"
+    }
+   ]
+  }
+ },
+ "coverage": {
+  "applebaum": {
+   "model_spans": 2033,
+   "in_gazetteer": 1476,
+   "share": 0.7260206591244466
+  },
+  "nicolay": {
+   "model_spans": 1515,
+   "in_gazetteer": 1028,
+   "share": 0.6785478547854785
+  },
+  "miller": {
+   "model_spans": 2126,
+   "in_gazetteer": 1526,
+   "share": 0.7177798682972719
+  },
+  "brumme": {
+   "model_spans": 795,
+   "in_gazetteer": 484,
+   "share": 0.6088050314465409
+  },
+  "orth": {
+   "model_spans": 1873,
+   "in_gazetteer": 778,
+   "share": 0.41537640149492794
+  }
+ },
+ "within_author": {
+  "miller": {
+   "P1": {
+    "words": 30863,
+    "ua": 261,
+    "foreign": 39,
+    "focus": 0.87,
+    "ua_per_1000": 8.456728121051096,
+    "foreign_per_1000": 1.2636490295823477,
+    "region_share": {
+     "West": 0.08045977011494253,
+     "Centre": 0.1839080459770115,
+     "South": 0.07279693486590039,
+     "East": 0.6628352490421456
+    },
+    "regional_spread": 0.7051059253930823,
+    "pairs_UU": 77,
+    "pairs_UF": 11,
+    "pairs_FF": 10,
+    "outward_linkage": 0.125,
+    "outward_linkage_window": 0.2074688796680498,
+    "state_ukraine": 118,
+    "state_other": 76,
+    "state_ukraine_share": 0.6082474226804123,
+    "outward_to": {
+     "Russia and Belarus": 8,
+     "Central and Eastern Europe": 1,
+     "Western Europe and North America": 2,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.7272727272727273,
+     "Central and Eastern Europe": 0.09090909090909091,
+     "Western Europe and North America": 0.18181818181818182,
+     "Elsewhere": 0.0
+    },
+    "n_units": 4
+   },
+   "P2": {
+    "words": 71587,
+    "ua": 691,
+    "foreign": 107,
+    "focus": 0.8659147869674185,
+    "ua_per_1000": 9.652590554150894,
+    "foreign_per_1000": 1.4946847891376926,
+    "region_share": {
+     "West": 0.02894356005788712,
+     "Centre": 0.24312590448625182,
+     "South": 0.20694645441389292,
+     "East": 0.5209840810419681
+    },
+    "regional_spread": 0.8021778932023989,
+    "pairs_UU": 189,
+    "pairs_UF": 30,
+    "pairs_FF": 13,
+    "outward_linkage": 0.136986301369863,
+    "outward_linkage_window": 0.23684210526315788,
+    "state_ukraine": 257,
+    "state_other": 241,
+    "state_ukraine_share": 0.5160642570281124,
+    "outward_to": {
+     "Russia and Belarus": 27,
+     "Central and Eastern Europe": 0,
+     "Western Europe and North America": 3,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.9,
+     "Central and Eastern Europe": 0.0,
+     "Western Europe and North America": 0.1,
+     "Elsewhere": 0.0
+    },
+    "n_units": 26
+   },
+   "P3": {
+    "words": 39187,
+    "ua": 388,
+    "foreign": 41,
+    "focus": 0.9044289044289044,
+    "ua_per_1000": 9.901242759078265,
+    "foreign_per_1000": 1.0462653430984765,
+    "region_share": {
+     "West": 0.041237113402061855,
+     "Centre": 0.44072164948453607,
+     "South": 0.08505154639175258,
+     "East": 0.4329896907216495
+    },
+    "regional_spread": 0.7679627187596086,
+    "pairs_UU": 100,
+    "pairs_UF": 9,
+    "pairs_FF": 7,
+    "outward_linkage": 0.08256880733944955,
+    "outward_linkage_window": 0.15444015444015444,
+    "state_ukraine": 139,
+    "state_other": 104,
+    "state_ukraine_share": 0.5720164609053497,
+    "outward_to": {
+     "Russia and Belarus": 9,
+     "Central and Eastern Europe": 0,
+     "Western Europe and North America": 0,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 1.0,
+     "Central and Eastern Europe": 0.0,
+     "Western Europe and North America": 0.0,
+     "Elsewhere": 0.0
+    },
+    "n_units": 16
+   },
+   "delta_ua_rate_last_vs_previous": -0.10933333333333334
+  },
+  "brumme": {
+   "P2": {
+    "words": 6480,
+    "ua": 44,
+    "foreign": 13,
+    "focus": 0.7719298245614035,
+    "ua_per_1000": 6.790123456790123,
+    "foreign_per_1000": 2.006172839506173,
+    "region_share": {
+     "West": 0.06818181818181818,
+     "Centre": 0.38636363636363635,
+     "South": 0.11363636363636363,
+     "East": 0.4318181818181818
+    },
+    "regional_spread": 0.8369655930313283,
+    "pairs_UU": 5,
+    "pairs_UF": 0,
+    "pairs_FF": 3,
+    "outward_linkage": 0.0,
+    "outward_linkage_window": 0.125,
+    "state_ukraine": 30,
+    "state_other": 68,
+    "state_ukraine_share": 0.30612244897959184,
+    "outward_to": {
+     "Russia and Belarus": 0,
+     "Central and Eastern Europe": 0,
+     "Western Europe and North America": 0,
+     "Elsewhere": 0
+    },
+    "outward_to_share": {
+     "Russia and Belarus": NaN,
+     "Central and Eastern Europe": NaN,
+     "Western Europe and North America": NaN,
+     "Elsewhere": NaN
+    },
+    "n_units": 5
+   },
+   "P3": {
+    "words": 17061,
+    "ua": 144,
+    "foreign": 35,
+    "focus": 0.8044692737430168,
+    "ua_per_1000": 8.440302444170916,
+    "foreign_per_1000": 2.0514623996248753,
+    "region_share": {
+     "West": 0.034722222222222224,
+     "Centre": 0.6319444444444444,
+     "South": 0.14583333333333334,
+     "East": 0.1875
+    },
+    "regional_spread": 0.7223250661055806,
+    "pairs_UU": 20,
+    "pairs_UF": 13,
+    "pairs_FF": 4,
+    "outward_linkage": 0.3939393939393939,
+    "outward_linkage_window": 0.34782608695652173,
+    "state_ukraine": 66,
+    "state_other": 101,
+    "state_ukraine_share": 0.39520958083832336,
+    "outward_to": {
+     "Russia and Belarus": 2,
+     "Central and Eastern Europe": 1,
+     "Western Europe and North America": 9,
+     "Elsewhere": 1
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.15384615384615385,
+     "Central and Eastern Europe": 0.07692307692307693,
+     "Western Europe and North America": 0.6923076923076923,
+     "Elsewhere": 0.07692307692307693
+    },
+    "n_units": 13
+   },
+   "delta_ua_rate_last_vs_previous": 0.16923076923076924
+  },
+  "nicolay": {
+   "P1": {
+    "words": 6702,
+    "ua": 24,
+    "foreign": 22,
+    "focus": 0.5217391304347826,
+    "ua_per_1000": 3.5810205908683974,
+    "foreign_per_1000": 3.282602208296031,
+    "region_share": {
+     "West": 0.041666666666666664,
+     "Centre": 0.041666666666666664,
+     "South": 0.16666666666666666,
+     "East": 0.75
+    },
+    "regional_spread": 0.5620927081530442,
+    "pairs_UU": 7,
+    "pairs_UF": 2,
+    "pairs_FF": 10,
+    "outward_linkage": 0.2222222222222222,
+    "outward_linkage_window": 0.5263157894736842,
+    "state_ukraine": 11,
+    "state_other": 35,
+    "state_ukraine_share": 0.2391304347826087,
+    "outward_to": {
+     "Russia and Belarus": 1,
+     "Central and Eastern Europe": 0,
+     "Western Europe and North America": 0,
+     "Elsewhere": 1
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.5,
+     "Central and Eastern Europe": 0.0,
+     "Western Europe and North America": 0.0,
+     "Elsewhere": 0.5
+    },
+    "n_units": 1
+   },
+   "P2": {
+    "words": 19157,
+    "ua": 137,
+    "foreign": 25,
+    "focus": 0.845679012345679,
+    "ua_per_1000": 7.1514328965913245,
+    "foreign_per_1000": 1.3050060030276138,
+    "region_share": {
+     "West": 0.2773722627737226,
+     "Centre": 0.5182481751824818,
+     "South": 0.13138686131386862,
+     "East": 0.072992700729927
+    },
+    "regional_spread": 0.8324787350184973,
+    "pairs_UU": 28,
+    "pairs_UF": 11,
+    "pairs_FF": 3,
+    "outward_linkage": 0.28205128205128205,
+    "outward_linkage_window": 0.27848101265822783,
+    "state_ukraine": 45,
+    "state_other": 47,
+    "state_ukraine_share": 0.4891304347826087,
+    "outward_to": {
+     "Russia and Belarus": 7,
+     "Central and Eastern Europe": 2,
+     "Western Europe and North America": 1,
+     "Elsewhere": 1
+    },
+    "outward_to_share": {
+     "Russia and Belarus": 0.6363636363636364,
+     "Central and Eastern Europe": 0.18181818181818182,
+     "Western Europe and North America": 0.09090909090909091,
+     "Elsewhere": 0.09090909090909091
+    },
+    "n_units": 1
+   }
+  }
+ }
+}

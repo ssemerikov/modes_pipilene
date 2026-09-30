@@ -1,0 +1,1886 @@
+{
+ "n": 118,
+ "majority_share": 0.3728813559322034,
+ "labels": [
+  "applebaum",
+  "nicolay",
+  "miller",
+  "brumme",
+  "orth"
+ ],
+ "five_texts": {
+  "all": {
+   "random_forest": {
+    "loo_accuracy": 0.923728813559322,
+    "loo_correct": 109,
+    "n": 118,
+    "loo_balanced_accuracy": 0.9161092708461129,
+    "kfold_mean": 0.9219384057971013,
+    "kfold_sd": 0.05062657498832371,
+    "confusion": [
+     [
+      24,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      0,
+      12,
+      1,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      42,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      18,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      2,
+      13
+     ]
+    ],
+    "perm_score": 0.9231884057971016,
+    "perm_null_mean": 0.3200108695652173,
+    "perm_null_max": 0.40724637681159426,
+    "perm_p": 0.004975124378109453,
+    "perm_n": 200
+   },
+   "lda": {
+    "loo_accuracy": 0.940677966101695,
+    "loo_correct": 111,
+    "n": 118,
+    "loo_balanced_accuracy": 0.9385344674818359,
+    "kfold_mean": 0.9433152173913045,
+    "kfold_sd": 0.03983202162090196,
+    "confusion": [
+     [
+      25,
+      1,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      13,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      43,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      15,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      15
+     ]
+    ],
+    "perm_score": 0.9655797101449275,
+    "perm_null_mean": 0.2679949275362319,
+    "perm_null_max": 0.41630434782608694,
+    "perm_p": 0.000999000999000999,
+    "perm_n": 1000
+   }
+  },
+  "form": {
+   "random_forest": {
+    "loo_accuracy": 0.8559322033898306,
+    "loo_correct": 101,
+    "n": 118,
+    "loo_balanced_accuracy": 0.8186193923036029,
+    "kfold_mean": 0.8631521739130434,
+    "kfold_sd": 0.07105263951432551,
+    "confusion": [
+     [
+      24,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      1,
+      11,
+      1,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      42,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      14,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      10
+     ]
+    ]
+   },
+   "lda": {
+    "loo_accuracy": 0.9576271186440678,
+    "loo_correct": 113,
+    "n": 118,
+    "loo_balanced_accuracy": 0.9567251461988304,
+    "kfold_mean": 0.9500543478260872,
+    "kfold_sd": 0.03780725943627132,
+    "confusion": [
+     [
+      24,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      0,
+      13,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      44,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      17,
+      2
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      15
+     ]
+    ]
+   }
+  },
+  "content": {
+   "random_forest": {
+    "loo_accuracy": 0.7288135593220338,
+    "loo_correct": 86,
+    "n": 118,
+    "loo_balanced_accuracy": 0.6988839815155605,
+    "kfold_mean": 0.7205978260869564,
+    "kfold_sd": 0.08463584584130897,
+    "confusion": [
+     [
+      21,
+      3,
+      2,
+      0,
+      1
+     ],
+     [
+      7,
+      6,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      1,
+      35,
+      3,
+      1
+     ],
+     [
+      1,
+      0,
+      8,
+      10,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0,
+      14
+     ]
+    ]
+   },
+   "lda": {
+    "loo_accuracy": 0.7796610169491526,
+    "loo_correct": 92,
+    "n": 118,
+    "loo_balanced_accuracy": 0.7734978666557615,
+    "kfold_mean": 0.755072463768116,
+    "kfold_sd": 0.07245324546640967,
+    "confusion": [
+     [
+      22,
+      4,
+      1,
+      0,
+      0
+     ],
+     [
+      4,
+      9,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      1,
+      35,
+      2,
+      2
+     ],
+     [
+      0,
+      1,
+      5,
+      12,
+      1
+     ],
+     [
+      0,
+      0,
+      1,
+      0,
+      14
+     ]
+    ]
+   }
+  },
+  "without war vocabulary": {
+   "random_forest": {
+    "loo_accuracy": 0.9152542372881356,
+    "loo_correct": 108,
+    "n": 118,
+    "loo_balanced_accuracy": 0.8947437942174785,
+    "kfold_mean": 0.928786231884058,
+    "kfold_sd": 0.05662745442525654,
+    "confusion": [
+     [
+      24,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      0,
+      11,
+      2,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      43,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      17,
+      2
+     ],
+     [
+      0,
+      0,
+      0,
+      2,
+      13
+     ]
+    ]
+   },
+   "lda": {
+    "loo_accuracy": 0.940677966101695,
+    "loo_correct": 111,
+    "n": 118,
+    "loo_balanced_accuracy": 0.9385344674818359,
+    "kfold_mean": 0.9433333333333335,
+    "kfold_sd": 0.042544192265402604,
+    "confusion": [
+     [
+      25,
+      1,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      13,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      43,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      15,
+      4
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      15
+     ]
+    ]
+   }
+  },
+  "content without war vocabulary": {
+   "random_forest": {
+    "loo_accuracy": 0.6949152542372882,
+    "loo_correct": 82,
+    "n": 118,
+    "loo_balanced_accuracy": 0.6605214084161453,
+    "kfold_mean": 0.6907065217391305,
+    "kfold_sd": 0.0850800214054242,
+    "confusion": [
+     [
+      18,
+      2,
+      7,
+      0,
+      0
+     ],
+     [
+      3,
+      6,
+      3,
+      0,
+      1
+     ],
+     [
+      2,
+      1,
+      35,
+      3,
+      3
+     ],
+     [
+      2,
+      0,
+      6,
+      11,
+      0
+     ],
+     [
+      0,
+      1,
+      2,
+      0,
+      12
+     ]
+    ]
+   },
+   "lda": {
+    "loo_accuracy": 0.7203389830508474,
+    "loo_correct": 85,
+    "n": 118,
+    "loo_balanced_accuracy": 0.6894802273749642,
+    "kfold_mean": 0.7207789855072464,
+    "kfold_sd": 0.0876278097447181,
+    "confusion": [
+     [
+      21,
+      1,
+      5,
+      0,
+      0
+     ],
+     [
+      2,
+      5,
+      4,
+      0,
+      2
+     ],
+     [
+      5,
+      0,
+      34,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      5,
+      11,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0,
+      14
+     ]
+    ]
+   }
+  },
+  "genre markers": {
+   "random_forest": {
+    "loo_accuracy": 0.5338983050847458,
+    "loo_correct": 63,
+    "n": 118,
+    "loo_balanced_accuracy": 0.4400603879551248,
+    "kfold_mean": 0.5282065217391304,
+    "kfold_sd": 0.0785886215465579,
+    "confusion": [
+     [
+      17,
+      3,
+      5,
+      2,
+      0
+     ],
+     [
+      6,
+      2,
+      5,
+      0,
+      0
+     ],
+     [
+      6,
+      3,
+      31,
+      1,
+      3
+     ],
+     [
+      2,
+      0,
+      5,
+      11,
+      1
+     ],
+     [
+      0,
+      2,
+      10,
+      1,
+      2
+     ]
+    ]
+   },
+   "lda": {
+    "loo_accuracy": 0.576271186440678,
+    "loo_correct": 68,
+    "n": 118,
+    "loo_balanced_accuracy": 0.43523834839624315,
+    "kfold_mean": 0.5798550724637681,
+    "kfold_sd": 0.07179491124728699,
+    "confusion": [
+     [
+      19,
+      0,
+      8,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      9,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      37,
+      2,
+      1
+     ],
+     [
+      1,
+      1,
+      5,
+      12,
+      0
+     ],
+     [
+      0,
+      0,
+      15,
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ },
+ "four_texts": {
+  "random_forest": {
+   "loo_accuracy": 0.9459459459459459,
+   "loo_correct": 70,
+   "n": 74,
+   "loo_balanced_accuracy": 0.9381766381766382,
+   "kfold_mean": 0.9506190476190477,
+   "kfold_sd": 0.052560604074842386,
+   "confusion": [
+    [
+     26,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     12,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     19,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     13
+    ]
+   ]
+  },
+  "lda": {
+   "loo_accuracy": 0.9324324324324325,
+   "loo_correct": 69,
+   "n": 74,
+   "loo_balanced_accuracy": 0.945906432748538,
+   "kfold_mean": 0.9391904761904764,
+   "kfold_sd": 0.051116645304608355,
+   "confusion": [
+    [
+     24,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     13,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     17,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     15
+    ]
+   ]
+  },
+  "n": 74
+ },
+ "context": {
+  "all": {
+   "leave_one_text_out": {
+    "applebaum": 1.0,
+    "nicolay": 1.0,
+    "miller": 1.0,
+    "brumme": 1.0,
+    "orth": 1.0
+   }
+  },
+  "form": {
+   "leave_one_text_out": {
+    "applebaum": 1.0,
+    "nicolay": 1.0,
+    "miller": 1.0,
+    "brumme": 1.0,
+    "orth": 1.0
+   }
+  },
+  "content": {
+   "leave_one_text_out": {
+    "applebaum": 1.0,
+    "nicolay": 0.9230769230769231,
+    "miller": 0.20454545454545456,
+    "brumme": 0.2631578947368421,
+    "orth": 0.13333333333333333
+   }
+  },
+  "without war vocabulary": {
+   "leave_one_text_out": {
+    "applebaum": 1.0,
+    "nicolay": 1.0,
+    "miller": 1.0,
+    "brumme": 1.0,
+    "orth": 1.0
+   }
+  },
+  "content without war vocabulary": {
+   "leave_one_text_out": {
+    "applebaum": 1.0,
+    "nicolay": 0.7692307692307693,
+    "miller": 0.4772727272727273,
+    "brumme": 0.3684210526315789,
+    "orth": 0.06666666666666667
+   }
+  },
+  "genre markers": {
+   "leave_one_text_out": {
+    "applebaum": 1.0,
+    "nicolay": 1.0,
+    "miller": 0.4090909090909091,
+    "brumme": 0.3684210526315789,
+    "orth": 0.0
+   }
+  }
+ },
+ "clustering": {
+  "text": {
+   "k": 5,
+   "kmeans_ari": 0.6087491929985697,
+   "ward_ari": 0.7226619703554275
+  },
+  "context": {
+   "k": 2,
+   "kmeans_ari": 1.0,
+   "ward_ari": 0.9649696086303604,
+   "kmeans_crosstab": {
+    "applebaum": {
+     "0": 27,
+     "1": 0
+    },
+    "nicolay": {
+     "0": 13,
+     "1": 0
+    },
+    "miller": {
+     "0": 44,
+     "1": 0
+    },
+    "brumme": {
+     "0": 0,
+     "1": 19
+    },
+    "orth": {
+     "0": 0,
+     "1": 15
+    }
+   }
+  },
+  "period_written": {
+   "k": 3,
+   "kmeans_ari": 0.28739404017494746,
+   "ward_ari": 0.33700254855204853
+  }
+ },
+ "placement": {
+  "all": {
+   "raw": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 44,
+      "nicolay": 0,
+      "brumme": 0,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 1.0,
+      "nicolay": 0.0,
+      "brumme": 0.0,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.7385000000000002,
+      "nicolay": 0.14186363636363633,
+      "brumme": 0.0938181818181818,
+      "orth": 0.025818181818181827
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 4,
+       "nicolay": 0,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 25,
+       "nicolay": 0,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 15,
+       "nicolay": 0,
+       "brumme": 0,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 1.0
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 30,
+      "nicolay": 14,
+      "brumme": 0,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.6818181818181818,
+      "nicolay": 0.3181818181818182,
+      "brumme": 0.0,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.6718839021945076,
+      "nicolay": 0.3281160978054898,
+      "brumme": 2.677846083754165e-15,
+      "orth": 1.2929633948746596e-34
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 4,
+       "nicolay": 0,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 16,
+       "nicolay": 9,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 10,
+       "nicolay": 5,
+       "brumme": 0,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 1.0
+    }
+   },
+   "within_language": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 24,
+      "nicolay": 0,
+      "brumme": 20,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.5454545454545454,
+      "nicolay": 0.0,
+      "brumme": 0.45454545454545453,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.4197727272727272,
+      "nicolay": 0.08445454545454542,
+      "brumme": 0.3893181818181818,
+      "orth": 0.10645454545454544
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 0,
+       "brumme": 1,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 14,
+       "nicolay": 0,
+       "brumme": 11,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 7,
+       "nicolay": 0,
+       "brumme": 8,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.5454545454545454
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 5,
+      "nicolay": 1,
+      "brumme": 38,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.11363636363636363,
+      "nicolay": 0.022727272727272728,
+      "brumme": 0.8636363636363636,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.1335555817288958,
+      "nicolay": 0.04242505866175607,
+      "brumme": 0.8198460966152503,
+      "orth": 0.004173262994097867
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 0,
+       "nicolay": 0,
+       "brumme": 4,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 3,
+       "nicolay": 0,
+       "brumme": 22,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 2,
+       "nicolay": 1,
+       "brumme": 12,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.13636363636363635
+    }
+   }
+  },
+  "form": {
+   "raw": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 41,
+      "nicolay": 3,
+      "brumme": 0,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.9318181818181818,
+      "nicolay": 0.06818181818181818,
+      "brumme": 0.0,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.8342727272727273,
+      "nicolay": 0.13331818181818178,
+      "brumme": 0.028454545454545458,
+      "orth": 0.003954545454545455
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 4,
+       "nicolay": 0,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 23,
+       "nicolay": 2,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 14,
+       "nicolay": 1,
+       "brumme": 0,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 1.0
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 32,
+      "nicolay": 12,
+      "brumme": 0,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.7272727272727273,
+      "nicolay": 0.2727272727272727,
+      "brumme": 0.0,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.7173812112360767,
+      "nicolay": 0.28261878876392327,
+      "brumme": 1.2781098330675907e-21,
+      "orth": 1.1354066865582587e-34
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 1,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 21,
+       "nicolay": 4,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 8,
+       "nicolay": 7,
+       "brumme": 0,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 1.0
+    }
+   },
+   "within_language": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 31,
+      "nicolay": 0,
+      "brumme": 12,
+      "orth": 1
+     },
+     "share": {
+      "applebaum": 0.7045454545454546,
+      "nicolay": 0.0,
+      "brumme": 0.2727272727272727,
+      "orth": 0.022727272727272728
+     },
+     "mean_probability": {
+      "applebaum": 0.4604545454545454,
+      "nicolay": 0.04036363636363637,
+      "brumme": 0.31795454545454543,
+      "orth": 0.18122727272727268
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 0,
+       "brumme": 1,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 16,
+       "nicolay": 0,
+       "brumme": 8,
+       "orth": 1
+      },
+      "P3": {
+       "applebaum": 12,
+       "nicolay": 0,
+       "brumme": 3,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.7045454545454546
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 4,
+      "nicolay": 0,
+      "brumme": 40,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.09090909090909091,
+      "nicolay": 0.0,
+      "brumme": 0.9090909090909091,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.14302412982457202,
+      "nicolay": 0.007849700284270485,
+      "brumme": 0.8488377323421865,
+      "orth": 0.00028843754897100153
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 0,
+       "nicolay": 0,
+       "brumme": 4,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 0,
+       "nicolay": 0,
+       "brumme": 25,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 4,
+       "nicolay": 0,
+       "brumme": 11,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.09090909090909091
+    }
+   }
+  },
+  "content": {
+   "raw": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 8,
+      "nicolay": 1,
+      "brumme": 28,
+      "orth": 7
+     },
+     "share": {
+      "applebaum": 0.18181818181818182,
+      "nicolay": 0.022727272727272728,
+      "brumme": 0.6363636363636364,
+      "orth": 0.1590909090909091
+     },
+     "mean_probability": {
+      "applebaum": 0.23627272727272725,
+      "nicolay": 0.05149999999999999,
+      "brumme": 0.4897272727272726,
+      "orth": 0.22250000000000003
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 1,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 5,
+       "nicolay": 0,
+       "brumme": 16,
+       "orth": 4
+      },
+      "P3": {
+       "applebaum": 0,
+       "nicolay": 0,
+       "brumme": 12,
+       "orth": 3
+      }
+     },
+     "n": 44,
+     "american_share": 0.20454545454545456
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 5,
+      "nicolay": 3,
+      "brumme": 23,
+      "orth": 13
+     },
+     "share": {
+      "applebaum": 0.11363636363636363,
+      "nicolay": 0.06818181818181818,
+      "brumme": 0.5227272727272727,
+      "orth": 0.29545454545454547
+     },
+     "mean_probability": {
+      "applebaum": 0.12968104949148276,
+      "nicolay": 0.06457265775208293,
+      "brumme": 0.504428319356784,
+      "orth": 0.30131797339965033
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 1,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 2,
+       "nicolay": 2,
+       "brumme": 13,
+       "orth": 8
+      },
+      "P3": {
+       "applebaum": 0,
+       "nicolay": 0,
+       "brumme": 10,
+       "orth": 5
+      }
+     },
+     "n": 44,
+     "american_share": 0.18181818181818182
+    }
+   },
+   "within_language": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 28,
+      "nicolay": 1,
+      "brumme": 15,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.6363636363636364,
+      "nicolay": 0.022727272727272728,
+      "brumme": 0.3409090909090909,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.4135909090909092,
+      "nicolay": 0.1503636363636364,
+      "brumme": 0.35027272727272724,
+      "orth": 0.08577272727272726
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 0,
+       "brumme": 1,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 17,
+       "nicolay": 1,
+       "brumme": 7,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 8,
+       "nicolay": 0,
+       "brumme": 7,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.6590909090909091
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 19,
+      "nicolay": 1,
+      "brumme": 24,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.4318181818181818,
+      "nicolay": 0.022727272727272728,
+      "brumme": 0.5454545454545454,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.4008643426125351,
+      "nicolay": 0.06525510391975484,
+      "brumme": 0.47981169858830464,
+      "orth": 0.05406885487940552
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 2,
+       "nicolay": 0,
+       "brumme": 2,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 10,
+       "nicolay": 1,
+       "brumme": 14,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 7,
+       "nicolay": 0,
+       "brumme": 8,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.45454545454545453
+    }
+   }
+  },
+  "without war vocabulary": {
+   "raw": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 41,
+      "nicolay": 3,
+      "brumme": 0,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.9318181818181818,
+      "nicolay": 0.06818181818181818,
+      "brumme": 0.0,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.7675909090909093,
+      "nicolay": 0.16886363636363635,
+      "brumme": 0.050090909090909116,
+      "orth": 0.013454545454545459
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 4,
+       "nicolay": 0,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 23,
+       "nicolay": 2,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 14,
+       "nicolay": 1,
+       "brumme": 0,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 1.0
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 28,
+      "nicolay": 16,
+      "brumme": 0,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.6363636363636364,
+      "nicolay": 0.36363636363636365,
+      "brumme": 0.0,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.648736919918234,
+      "nicolay": 0.35126308008176604,
+      "brumme": 3.822530968380526e-21,
+      "orth": 2.212389164369709e-33
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 4,
+       "nicolay": 0,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 16,
+       "nicolay": 9,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 8,
+       "nicolay": 7,
+       "brumme": 0,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 1.0
+    }
+   },
+   "within_language": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 23,
+      "nicolay": 1,
+      "brumme": 20,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.5227272727272727,
+      "nicolay": 0.022727272727272728,
+      "brumme": 0.45454545454545453,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.3992727272727274,
+      "nicolay": 0.09409090909090904,
+      "brumme": 0.3767727272727273,
+      "orth": 0.12986363636363638
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 0,
+       "brumme": 1,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 13,
+       "nicolay": 0,
+       "brumme": 12,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 7,
+       "nicolay": 1,
+       "brumme": 7,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.5454545454545454
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 0,
+      "nicolay": 1,
+      "brumme": 43,
+      "orth": 0
+     },
+     "share": {
+      "applebaum": 0.0,
+      "nicolay": 0.022727272727272728,
+      "brumme": 0.9772727272727273,
+      "orth": 0.0
+     },
+     "mean_probability": {
+      "applebaum": 0.041673403279327934,
+      "nicolay": 0.03924840633850077,
+      "brumme": 0.9189642720703867,
+      "orth": 0.00011391831178467279
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 0,
+       "nicolay": 0,
+       "brumme": 4,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 0,
+       "nicolay": 0,
+       "brumme": 25,
+       "orth": 0
+      },
+      "P3": {
+       "applebaum": 0,
+       "nicolay": 1,
+       "brumme": 14,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.022727272727272728
+    }
+   }
+  },
+  "content without war vocabulary": {
+   "raw": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 15,
+      "nicolay": 4,
+      "brumme": 20,
+      "orth": 5
+     },
+     "share": {
+      "applebaum": 0.3409090909090909,
+      "nicolay": 0.09090909090909091,
+      "brumme": 0.45454545454545453,
+      "orth": 0.11363636363636363
+     },
+     "mean_probability": {
+      "applebaum": 0.30636363636363656,
+      "nicolay": 0.2114090909090909,
+      "brumme": 0.3391363636363638,
+      "orth": 0.14309090909090905
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 1,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 7,
+       "nicolay": 2,
+       "brumme": 14,
+       "orth": 2
+      },
+      "P3": {
+       "applebaum": 5,
+       "nicolay": 1,
+       "brumme": 6,
+       "orth": 3
+      }
+     },
+     "n": 44,
+     "american_share": 0.4318181818181818
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 10,
+      "nicolay": 15,
+      "brumme": 16,
+      "orth": 3
+     },
+     "share": {
+      "applebaum": 0.22727272727272727,
+      "nicolay": 0.3409090909090909,
+      "brumme": 0.36363636363636365,
+      "orth": 0.06818181818181818
+     },
+     "mean_probability": {
+      "applebaum": 0.2507131067423653,
+      "nicolay": 0.31058178007151854,
+      "brumme": 0.3541713519596211,
+      "orth": 0.08453376122649502
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 1,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 6,
+       "nicolay": 8,
+       "brumme": 9,
+       "orth": 2
+      },
+      "P3": {
+       "applebaum": 1,
+       "nicolay": 6,
+       "brumme": 7,
+       "orth": 1
+      }
+     },
+     "n": 44,
+     "american_share": 0.5681818181818182
+    }
+   },
+   "within_language": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 12,
+      "nicolay": 16,
+      "brumme": 15,
+      "orth": 1
+     },
+     "share": {
+      "applebaum": 0.2727272727272727,
+      "nicolay": 0.36363636363636365,
+      "brumme": 0.3409090909090909,
+      "orth": 0.022727272727272728
+     },
+     "mean_probability": {
+      "applebaum": 0.3183181818181819,
+      "nicolay": 0.2730909090909091,
+      "brumme": 0.32963636363636356,
+      "orth": 0.07895454545454543
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 3,
+       "nicolay": 0,
+       "brumme": 1,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 7,
+       "nicolay": 10,
+       "brumme": 7,
+       "orth": 1
+      },
+      "P3": {
+       "applebaum": 2,
+       "nicolay": 6,
+       "brumme": 7,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.6363636363636364
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 3,
+      "nicolay": 17,
+      "brumme": 23,
+      "orth": 1
+     },
+     "share": {
+      "applebaum": 0.06818181818181818,
+      "nicolay": 0.38636363636363635,
+      "brumme": 0.5227272727272727,
+      "orth": 0.022727272727272728
+     },
+     "mean_probability": {
+      "applebaum": 0.16280462703667087,
+      "nicolay": 0.3203869347862131,
+      "brumme": 0.4531384880386591,
+      "orth": 0.0636699501384569
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 2,
+       "nicolay": 0,
+       "brumme": 2,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 1,
+       "nicolay": 11,
+       "brumme": 12,
+       "orth": 1
+      },
+      "P3": {
+       "applebaum": 0,
+       "nicolay": 6,
+       "brumme": 9,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.45454545454545453
+    }
+   }
+  },
+  "genre markers": {
+   "raw": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 7,
+      "nicolay": 7,
+      "brumme": 13,
+      "orth": 17
+     },
+     "share": {
+      "applebaum": 0.1590909090909091,
+      "nicolay": 0.1590909090909091,
+      "brumme": 0.29545454545454547,
+      "orth": 0.38636363636363635
+     },
+     "mean_probability": {
+      "applebaum": 0.18859090909090906,
+      "nicolay": 0.18718181818181814,
+      "brumme": 0.26299999999999996,
+      "orth": 0.3612272727272727
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 1,
+       "nicolay": 2,
+       "brumme": 1,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 4,
+       "nicolay": 2,
+       "brumme": 8,
+       "orth": 11
+      },
+      "P3": {
+       "applebaum": 2,
+       "nicolay": 3,
+       "brumme": 4,
+       "orth": 6
+      }
+     },
+     "n": 44,
+     "american_share": 0.3181818181818182
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 7,
+      "nicolay": 7,
+      "brumme": 9,
+      "orth": 21
+     },
+     "share": {
+      "applebaum": 0.1590909090909091,
+      "nicolay": 0.1590909090909091,
+      "brumme": 0.20454545454545456,
+      "orth": 0.4772727272727273
+     },
+     "mean_probability": {
+      "applebaum": 0.198154829520356,
+      "nicolay": 0.23479358938255582,
+      "brumme": 0.20092615224943178,
+      "orth": 0.3661254288476565
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 1,
+       "nicolay": 3,
+       "brumme": 0,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 4,
+       "nicolay": 4,
+       "brumme": 5,
+       "orth": 12
+      },
+      "P3": {
+       "applebaum": 2,
+       "nicolay": 0,
+       "brumme": 4,
+       "orth": 9
+      }
+     },
+     "n": 44,
+     "american_share": 0.3181818181818182
+    }
+   },
+   "within_language": {
+    "random_forest": {
+     "counts": {
+      "applebaum": 10,
+      "nicolay": 8,
+      "brumme": 24,
+      "orth": 2
+     },
+     "share": {
+      "applebaum": 0.22727272727272727,
+      "nicolay": 0.18181818181818182,
+      "brumme": 0.5454545454545454,
+      "orth": 0.045454545454545456
+     },
+     "mean_probability": {
+      "applebaum": 0.2653636363636364,
+      "nicolay": 0.26704545454545453,
+      "brumme": 0.3967727272727272,
+      "orth": 0.0708181818181818
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 0,
+       "nicolay": 2,
+       "brumme": 1,
+       "orth": 1
+      },
+      "P2": {
+       "applebaum": 7,
+       "nicolay": 3,
+       "brumme": 14,
+       "orth": 1
+      },
+      "P3": {
+       "applebaum": 3,
+       "nicolay": 3,
+       "brumme": 9,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.4090909090909091
+    },
+    "lda": {
+     "counts": {
+      "applebaum": 6,
+      "nicolay": 14,
+      "brumme": 21,
+      "orth": 3
+     },
+     "share": {
+      "applebaum": 0.13636363636363635,
+      "nicolay": 0.3181818181818182,
+      "brumme": 0.4772727272727273,
+      "orth": 0.06818181818181818
+     },
+     "mean_probability": {
+      "applebaum": 0.18439362939572013,
+      "nicolay": 0.31891389275563103,
+      "brumme": 0.40892814021912566,
+      "orth": 0.08776433762952324
+     },
+     "by_period": {
+      "P1": {
+       "applebaum": 1,
+       "nicolay": 2,
+       "brumme": 1,
+       "orth": 0
+      },
+      "P2": {
+       "applebaum": 2,
+       "nicolay": 7,
+       "brumme": 13,
+       "orth": 3
+      },
+      "P3": {
+       "applebaum": 3,
+       "nicolay": 5,
+       "brumme": 7,
+       "orth": 0
+      }
+     },
+     "n": 44,
+     "american_share": 0.45454545454545453
+    }
+   }
+  }
+ },
+ "pca": {
+  "explained": [
+   0.3256743943730647,
+   0.17232507599670208,
+   0.10462431879004522
+  ],
+  "loadings": {
+   "mean_sent_len": [
+    0.2856301275773869,
+    -0.15717867178068334,
+    -0.30033459455021105
+   ],
+   "first_person_density": [
+    -0.19084106589390926,
+    0.05587020485903282,
+    0.3742481887924492
+   ],
+   "noun_ratio": [
+    -0.1844643688449465,
+    -0.09450637053442396,
+    -0.3075545097033737
+   ],
+   "verb_ratio": [
+    0.20705605073870234,
+    0.3464755894982758,
+    0.30721458212358316
+   ],
+   "adj_ratio": [
+    0.32156698106279213,
+    -0.1209209507437215,
+    -0.23096766219256376
+   ],
+   "past_tense_ratio": [
+    0.3468470291935769,
+    0.14958069075383693,
+    0.04466091348703604
+   ],
+   "present_tense_ratio": [
+    -0.36109106764457577,
+    -0.18199867143328505,
+    0.05081211308575013
+   ],
+   "mattr": [
+    -0.3320531437838509,
+    -0.14784548127115335,
+    -0.24614135189046182
+   ],
+   "yules_k": [
+    0.3818828572191082,
+    0.02124790283322615,
+    -0.09833115323083809
+   ],
+   "diary_marker_density": [
+    -0.22859998637040463,
+    0.18556169839515058,
+    -0.06074081036388478
+   ],
+   "travel_marker_density": [
+    0.13120957870490477,
+    -0.028072719563910626,
+    0.4610531165790957
+   ],
+   "historical_marker_density": [
+    0.14170425513014773,
+    -0.17063252682983915,
+    -0.21679348825528605
+   ],
+   "positive_ratio": [
+    -0.07752117444720846,
+    -0.2132748230689013,
+    0.12655899868077883
+   ],
+   "negative_ratio": [
+    0.1365432934505765,
+    0.3327331135442675,
+    -0.30405219043575166
+   ],
+   "subjectivity": [
+    0.15988908389941936,
+    0.03154362841242971,
+    0.15626115833040205
+   ],
+   "war_total_density": [
+    -0.12536531404031795,
+    0.47786618849882256,
+    -0.14365700405262904
+   ],
+   "war_conflict_density": [
+    -0.16439997863187408,
+    0.37744304066512013,
+    -0.18593887645248414
+   ],
+   "war_suffering_density": [
+    -0.11131538273287868,
+    0.3980182940633891,
+    -0.03518287978286978
+   ]
+  }
+ }
+}
